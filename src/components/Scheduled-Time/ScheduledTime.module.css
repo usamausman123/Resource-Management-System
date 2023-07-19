@@ -1,0 +1,221 @@
+.schedule-time-wrapper {
+    box-shadow: 0px 5px 10px rgb(141 144 172 / 10%);
+    border-radius: 5px; 
+    background: #fff;
+}
+
+/* header Content Section Start */
+.tabs-toggle .btn-check:focus+.btn-outline-secondary {
+    outline: 1px dotted #999;
+}
+.btn-check {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+.btn-check+.btn-outline-secondary {
+    border-color: #eceef1;
+    background-color: #f7f8f9;
+    font-weight: 500;
+    padding: 8px 18px;
+    color: #666;
+    font-size: 12;
+    line-height: 15px;
+    min-width: 100px;
+}
+.btn-outline-secondary:hover {
+    background-color: #f7f8f9;
+    color: #000;
+}
+.btn-check:checked+.btn-outline-secondary,
+.btn-check:active+.btn-outline-secondary,
+.btn-outline-secondary:active,
+.btn-outline-secondary.active,
+.btn-outline-secondary.dropdown-toggle.show {
+    background-color: #fff;
+    color: #000;
+    border-color: #eceef1;
+    box-shadow: none;
+    outline: none;
+}
+/* header Content Section End */
+
+/* Report Summary Section Start */
+.report-summary {
+    background-color: #ffffff;
+    padding: 22px 30px;
+    border-top: 1px solid #f0f0f0;
+}
+.report-summary div {
+    display: inline-block;
+    font-weight: 500;
+    margin-right: 10px;
+    white-space: nowrap;
+    font-size: 0.625rem;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.report-summary div span {
+    display: inline-block;
+    margin-left: 7px;
+    font-weight: 700;
+}
+.report-summary div span.green {
+    color: #03C04A;
+}
+.report-summary div span.red {
+    color: #EE4723;
+}
+.report-summary div span.blue {
+    color: #46B0E6;
+}
+.report-summary div span.yellow {
+    color: #EF9829;
+}
+@media screen and (min-width: 768px) {
+    .report-summary div {
+        font-size: 0.75rem;
+        line-height: 1.25;
+        margin-right: 30px;
+        color: #201D1E;
+    }
+}
+/* Report Summary Section End */
+
+
+/* Shifts Bid Tab Section Start */
+.tbl-container {
+    /* padding-top: 25px; */
+    overflow-x: auto;
+}
+.tbl-container > table {
+    min-width: 1300px;
+    width: 100%;
+}
+.standard-tbl-structure,
+.standard-tbl-structure table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+.standard-tbl-structure thead tr th,
+.standard-tbl-structure table thead tr th {
+    background-color: #fff;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    font-weight: 600;
+    border: 0px;
+}
+.standard-tbl-structure tbody tr td,
+.standard-tbl-structure table tbody tr td {
+    text-align: center;
+    font-size: 0.8125rem;
+    line-height: 1.3846153846;
+    font-weight: 400;
+    border-left: 0;
+    border-right: 0;
+    height: 55px;
+}
+
+.standard-tbl-structure tbody tr .table-body-content tbody tr:first-child td,
+.standard-tbl-structure table tbody tr .table-body-content tbody tr:first-child td {
+    border-top: 0;
+}
+.standard-tbl-structure th,
+.standard-tbl-structure td,
+.standard-tbl-structure table th,
+.standard-tbl-structure table td {
+    padding: 9px 8px;
+    word-break: break-word;
+    border: 1px solid #ECEEF1;
+    vertical-align: middle;
+    position: relative;
+}
+
+
+
+
+.standard-tbl-structure tbody tr:nth-child(odd) {
+    background-color: #FAFAFC;
+}
+.standard-tbl-structure tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+/* Shifts Bid Tab Section End */
+
+
+/* Badges style */
+.status-badge {
+    position: relative;
+    padding: 6px 8px 6px 24px;
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 0.6875rem;
+    line-height: 1.0833333333;
+}
+.status-badge.dotless {
+    padding: 4px 15px 4px 15px;
+}
+.status-badge:not(.dotless):before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 8px;
+}
+.status-badge.success,
+.status-badge.green {
+    background: rgba(3, 192, 74, 0.1);
+    color: #03C04A;
+}
+.status-badge.success:before,
+.status-badge.green:before {
+    background: #03C04A;
+}
+.status-badge.warning,
+.status-badge.yellow {
+    background: rgba(239, 152, 41, 0.1);
+    color: #ef9829;
+}
+.status-badge.warning:before,
+.status-badge.yellow:before {
+    background: #ef9829;
+}
+.status-badge.danger,
+.status-badge.red {
+    background: rgba(238, 71, 35, 0.1);
+    color: #EE4723;
+}
+.status-badge.danger:before,
+.status-badge.red:before {
+    background: #EE4723;
+}
+.status-badge.info,
+.status-badge.blue {
+    background: rgba(70, 177, 230, 0.1);
+    color: #46b0e6;
+}
+.status-badge.info:before,
+.status-badge.blue:before {
+    background: #46b0e6;
+}
+.status-badge.purple {
+    background: rgba(123, 144, 254, 0.1);
+    color: #7B90FE;
+}
+.status-badge.purple:before {
+    background: #7B90FE;
+}
+
+

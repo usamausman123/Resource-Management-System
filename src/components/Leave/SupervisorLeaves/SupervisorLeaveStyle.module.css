@@ -1,0 +1,70 @@
+.supervisorLeave.listMode tbody tr:nth-child(2n+2) {
+    background: #FAFAFC;
+    border: solid #eff0f5;
+    border-width: 1px 0;
+}
+
+.supervisorLeave tbody .componentGridTr:nth-child(2n+2) {
+    background: #ffffff;
+    border: none;
+}
+.agents-filter-opener::part(base),
+.agents-filter-opener::part(base):hover {
+    background: #fff;
+    border:0;
+    color: #383B56;
+    font-size: 0.8571428571428571rem;
+    font-weight: 500;
+}
+
+
+.supervisorLeave .actionMenu i2c-menu-item {
+  background-color: #fff;
+}
+
+.supervisorLeave .moreAdjustment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.supervisorLeave .actionMenu::part(base){
+    --i2c-color-neutral-300: transparent;
+}
+
+
+.supervisorLeave i2c-button::part(base){
+    --i2c-button-default-hover:#fff;
+}
+
+
+.supervisorLeave  .gridMoreBtn{
+    display: flex;
+    justify-content: end;
+    padding: 14px 1.5rem 0;
+
+}
+
+.supervisorLeave .gridMoreBtn i2c-button::part(base){
+    --i2c-color-neutral-300: transparent;
+}
+
+
+.gridMoreBtn i2c-button::part(base){
+    --i2c-button-default-hover:#fff;
+}
+
+
+
+.supervisorLeave .gridMoreBtn i2c-menu-item {
+    background-color: #fff;
+  }
+
+.component-grid-td{
+    font-weight: 600;
+}
+
+.dispute-avatar::part(base) {
+    width: 40px;
+    height: 40px;
+}

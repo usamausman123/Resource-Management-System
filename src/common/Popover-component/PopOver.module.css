@@ -1,0 +1,143 @@
+.popover-custom {
+    background: #fff;
+    box-shadow: 0px 10px 20px rgba(183, 183, 183, 0.5);
+    backdrop-filter: blur(13.5914px);
+    border-radius: 4px;
+    text-align: left;
+    font-size: 10px;
+    padding: 16px;
+    width: 240px;
+    max-width: 100% !important; 
+}
+
+
+@media screen and (max-width: 1367px) {
+    .popover-custom { 
+        max-height: 300px;
+        overflow: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .popover-custom {
+        width: 330px;
+        font-size: 12px;
+    }
+    .popover-custom .popover-custom-header {
+        padding: 0 18px;
+    }
+    .popover-custom .shift-details > li{
+        padding: 10px 18px;
+    }
+}
+
+.popover-custom .popover-custom-header {
+    padding: 0; 
+}
+    
+.popover-custom .popover-custom-header .scheduled-shift-time,
+.popover-custom .popover-custom-header .available-shift-time {
+    font-size: 12px;
+    line-height: 17px;
+}
+.popover-custom .popover-custom-header .scheduled-shift-time {
+    color: #666;
+    margin-bottom: 3px;
+}
+.popover-custom .popover-custom-header .scheduled-shift-time-label {
+    letter-spacing: 0.2px;
+}
+.popover-custom .popover-custom-header h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+.popover-custom .popover-custom-header h3 .icon {
+    position: relative;
+    top: 1.2px;
+    opacity: 0.75;
+    color: #8E90AA;
+}
+.popover-custom .popover-custom-header .text-blue {
+    color: #46b0e6;
+}
+.popover-custom .popover-custom-header .text-green {
+    color: #03C04A;
+}
+
+.popover-custom .shift-details {
+    padding: 0;
+    margin-bottom: 0; 
+}
+.popover-custom .shift-details > li:not(:last-child) {
+    border-bottom: 1px solid #F5F5F5;
+}
+.popover-custom .shift-details > li {
+    padding: 10px 0;
+    list-style: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    color: #000;
+}       
+.popover-custom .shift-details > li .shift-item-value {
+    font-size: 12px;
+    line-height: 15px;
+}
+.popover-custom .shift-details > li .shift-item-value :not(a) {
+    font-weight: 500;
+}
+.popover-custom .text-red {
+    color: #EE4723; 
+    text-decoration: underline;
+    border: none;
+    background: none;;
+}
+.popover-custom .shift-details > li .shift-item-value .text-red:hover {
+    color: #EE4723;
+    
+}
+.popover-custom .note {
+    color: #EF9829;
+    background: #FDF5EA;
+    border: 1px solid rgba(239, 152, 41, 0.5);
+    box-shadow: 0px 4px 4px rgba(239, 152, 41, 0.03);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 4px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.popover-custom .custom-popover-footer {
+    display: flex;
+    margin: 0 -15px;
+    border-radius: 0 0 4px 4px;
+}
+
+.popover-custom .custom-popover-footer > div {
+    padding: 19px 0;
+    font-size:12px;
+    line-height: 14px;
+    flex: 1;
+    background: #F5F6F8;
+    text-align: center;
+}
+
+
+.popover-custom .custom-popover-footer > div:first-child {
+    border-right: 1px solid #fff;
+}
+
+
+.popover-custom .custom-popover-footer > div:first-child span:hover {
+    color: #EE4723;
+}
+
+.popover-custom .custom-popover-footer > div:last-child a,
+.popover-custom .custom-popover-footer > div:last-child span {
+    color: #000;
+}
+.popover-custom .custom-popover-footer > div:last-child span:hover {
+    color: #000;
+}

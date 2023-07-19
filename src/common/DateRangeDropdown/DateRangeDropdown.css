@@ -1,0 +1,145 @@
+.daterange-picker-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1060;
+}
+.dateranger-picker-opener::part(base),
+.dateranger-picker-opener::part(base):hover {
+    background: #fff;
+    border:0;
+    color: #383B56;
+    font-size: 0.8571428571428571rem;
+    font-weight: 500;
+}
+.daterange-picker-collapsed {
+    display: none;;
+}
+.daterange-picker:not(.daterange-picker-collapsed) {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0px 3px 10px 3px rgb(0 0 0 / 15%);
+    min-width: 412px;
+}
+.daterange-picker i2c-button.active::part(base) {
+    background: #46B0E6;
+    color: #fff;
+    border-color: #46B0E6;
+}
+.daterange-picker .border-0::part(base) {
+    border: 0;
+}
+.daterange-picker:not(.daterange-picker-collapsed)::before {
+    content: '';
+    background: #fff;
+    height: 10px;
+    width: 10px;
+    top: -5px;
+    right: 40px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.daterange-picker-header-text {
+    border: 1px solid #46B0E6;
+    border-radius: 3px;
+}
+
+.daterange-picker:not(.daterange-picker-collapsed) .rdrDateDisplayWrapper {
+    background-color: #fff;
+}
+
+.daterange-picker:not(.daterange-picker-collapsed) .rdrCalendarWrapper.rdrDateRangeWrapper,
+.daterange-picker:not(.daterange-picker-collapsed) .rdrCalendarWrapper.rdrDateRangeWrapper .rdrMonths .rdrMonth {
+    width: 100%;
+}
+.daterange-picker:not(.daterange-picker-collapsed) .rdrCalendarWrapper.rdrDateRangeWrapper .rdrDateDisplayWrapper {
+    display: none;
+}
+.daterange-picker:not(.daterange-picker-collapsed) .rdrCalendarWrapper.rdrDateRangeWrapper .rdrMonthAndYearWrapper > .rdrNextPrevButton {
+    margin: 0;
+}
+.daterange-picker:not(.daterange-picker-collapsed) .rdrCalendarWrapper.rdrDateRangeWrapper .rdrMonths > .rdrMonth {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* span.rdrStartEdge,
+span.rdrEndEdge {
+    border-radius: 1.042em;
+}
+span.rdrStartEdge:before {
+    content: '';
+    background: rgba(70, 176, 230, 0.2);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 1.042em;
+    border-bottom-left-radius: 1.042em;
+}
+
+span.rdrEndEdge:before {
+    content: '';
+    background: rgba(70, 176, 230, 0.2);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top-right-radius: 1.042em;
+    border-bottom-right-radius: 1.042em;
+} */
+span.rdrInRange {
+    background: rgba(70, 176, 230, 0.2);
+}
+
+.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span {
+    color: #666
+}
+
+
+/************************* new style added ****************************/
+
+.daterange-picker-container .rdrDay {
+    height: 55px;
+}
+
+.daterange-picker-container .rdrStartEdge, 
+.daterange-picker-container .rdrEndEdge {
+    border-radius: 50%;
+}
+span.rdrStartEdge:before, 
+span.rdrEndEdge:before {
+    content: '';
+    background: rgba(70, 176, 230, 0.2);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.daterange-picker-container .rdrStartEdge:before, 
+.daterange-picker-container .rdrDayStartPreview, 
+.daterange-picker-container .rdrDayStartOfMonth .rdrInRange, .daterange-picker-container .rdrDayStartOfMonth .rdrEndEdge, .daterange-picker-container .rdrDayStartOfWeek .rdrInRange, .daterange-picker-container .rdrDayStartOfWeek .rdrEndEdge, 
+.daterange-picker-container .rdrDayStartOfMonth .rdrDayInPreview, .daterange-picker-container .rdrDayStartOfMonth .rdrDayEndPreview, .daterange-picker-container .rdrDayStartOfWeek .rdrDayInPreview, .daterange-picker-container .rdrDayStartOfWeek .rdrDayEndPreview {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.daterange-picker-container .rdrEndEdge:before, 
+.daterange-picker-container .rdrDayEndPreview, 
+.daterange-picker-container .rdrDayEndOfMonth .rdrInRange, .daterange-picker-container .rdrDayEndOfMonth .rdrStartEdge, .daterange-picker-container .rdrDayEndOfWeek .rdrInRange, .daterange-picker-container.rdrDayEndOfWeek .rdrStartEdge, 
+.daterange-picker-container .rdrDayEndOfMonth .rdrDayInPreview, .daterange-picker-container .rdrDayEndOfMonth .rdrDayStartPreview, .daterange-picker-container .rdrDayEndOfWeek .rdrDayInPreview, .daterange-picker-container .rdrDayEndOfWeek .rdrDayStartPreview {
+   border-top-right-radius: 50%;
+   border-bottom-right-radius: 50%;
+}

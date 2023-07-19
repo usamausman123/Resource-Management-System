@@ -1,0 +1,98 @@
+.main * {padding: 0;}
+
+.occurenceRuleDef{box-shadow:0 5px 10px rgb(141 144 172 / 10%);;border-radius:5px;background:#fff;padding:0}
+.main{border-top:1px solid #eceef1;margin:0}
+.tabs{padding: 16px 37px 16px 16px;color:#242A41;border-right:1px solid #eceef1; height: 100%;}
+.tabs ul li{font-weight:400;font-size:14px;line-height:20px;cursor:pointer;padding:7px 13px;border:1px solid transparent;display:flex;letter-spacing: -0.6px;}
+.tabs ul li span{margin-left:8px;display:block}
+.content{padding:24px 14px;color:#000;min-height:83vh}
+.content h3{font-size:16px;line-height:20px;font-weight:700;}
+.tabHeader{margin-bottom:24px;}
+.tabs .activeLi{color:#46b0e6;background:#ecf8fe;border-radius:6px}
+.id{margin-bottom:24px; width: 236px;}
+.startCategory{width: 236px;margin-right: 24px;}
+.start{margin-bottom:24px;display: flex;}
+.end{margin-bottom:24px;display: flex;}
+/* .late-end{margin-bottom:30px} */
+.content span{color:#46b0e6;margin-bottom:15px;display:block;font-size:16px;line-height:20px;font-weight: 500;}
+.occLateStart span{color:#46b0e6;margin-bottom:30px;display:block}
+.occLateStart i2c-select{width:230px;border-bottom:1px solid #d8dde4}
+.occLateEnd{margin-bottom:30px}
+.occLateEnd span{color:#46b0e6;margin-bottom:30px;display:block}
+.occLateEnd i2c-select{width:230px;border-bottom:1px solid #d8dde4}
+/* .startCategory{width:312px;margin-right:24px} */
+.occurenceRuleDef [type="radio"]:checked,[type="radio"]:not(:checked){position:absolute;left:-9999px}
+.occurenceRuleDef [type="radio"]:checked + label{font-size:18px;cursor:pointer;line-height:20px;color:#666;position:relative;border:1px solid transparent;border-right:1px solid #d5d5e2;border-radius:5px;width: 59px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;}
+.occurenceRuleDef [type="radio"]:not(:checked) + label{font-size:18px;cursor:pointer;line-height:20px;color:#666;position:relative;border:1px solid transparent;border-right:1px solid #d5d5e2;width: 59px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;}
+.occurenceRuleDef [type="radio"]:checked + label,[type="radio"]:not(:checked) + label:last-child{border-right:1px solid transparent}
+.occurenceRuleDef [type="radio"]:checked + label{color:#46b0e6;border:1px solid #46b0e6;box-shadow:0 2px 4px rgba(70,176,230,0.1)}
+.startRadioButtons{border:1px solid #e8e8ee;box-shadow:0 2px 4px rgba(0,0,0,0.03);border-radius:5px;width:auto;padding:0;margin-right:24px;height:48px;margin-top:14px;display: flex;}
+.startRadioButtons.end{margin-right:44px}
+.startRadioInput{position:relative;padding:0}
+.startRadioInput span{position:absolute;right:10px;top:33px;z-index:1;color:#242A41;  margin: 0;    font-size: 16px;    font-weight: 400;  }
+.startRadioOccurence{position:relative;padding:0;margin-right:8px;width: 107px;}
+.startRadioOccurence.ncnsOcc{width:15%}
+.startRadioOccurence span{position:absolute;right:10px;top:33px;z-index:1;color:#242A41;  margin: 0;    font-size: 16px;    font-weight: 400;  }
+.startRadioInput{width:270px}
+.startRadioDelete{display:flex;align-items:center;padding-top:20px;width:40px;padding-left:0;padding-right:0}
+.startRadioDelete .dltIcon{cursor:pointer}
+.startRadioDelete .dltIcon{border:1px solid #d5d5e2;box-shadow:0 1px 2px rgba(16,24,40,0.05);border-radius:4px;width:40px;height:40px;display:flex;justify-content:center;align-items:center}
+.startRadioDelete .dltIcon:hover{border-color:#46b0e6}
+.startRadioDelete .dltIcon:hover svg > path{stroke:#46b0e6}
+.occLateButtons button{background:#46b0e6;border:1px solid #46b0e6;border-radius:3px;color:#fff;font-size:14px;line-height:17px;padding:9px 17px 7px;margin-left:20px}
+.occurrencSelect::part(control){--i2c-input-border-color-focus:transparent;--i2c-input-border-width:0}
+.select--standard .select__control{background-color:var(--i2c-input-background-color);border:solid var(--i2c-input-border-width) var(--i2c-input-border-color);color:var(--i2c-input-color)}
+.occurrencInput::part(base){--i2c-input-border-width:0;--i2c-input-border-color:transparent;--i2c-input-border-color-focus:transparent;--i2c-focus-ring-width:0}
+.input--standard:not(.input--line):not(.border--less){border:solid var(--i2c-input-border-width) var(--i2c-input-border-color)}
+.ncnsButtons{padding-bottom:259px}
+.occLateAdd{margin-bottom:30px;width:150px;cursor:pointer;display:flex;justify-content:flex-start;align-items:center}
+.occLateAdd span{color:#ccc;display:inline-block;margin-left:10px;margin-bottom:0}
+.show{display:block}
+.hide{display:none}
+.occLateButtons i2c-button{margin-right:18px}
+.startRadioButtons label span{visibility:hidden;position:absolute;top:-45px;left:-20px;font-size:10px;line-height:12px;color:#fff;background:rgba(0,0,0,0.85);box-shadow:0 -10px 20px rgba(0,0,0,0.217476);border-radius:4px;padding:8px 11px;white-space:nowrap;width:auto}
+.startRadioButtons label:last-child span{left:-80px}
+.startRadioButtons label::after{visibility:hidden;content:"";width:11px;height:7px;background:rgba(0,0,0,0.85);box-shadow:0 -10px 20px rgba(0,0,0,0.217476);position:absolute;top:-22px;left:0;right:0;margin:0 auto;transform:rotate(45deg)}
+.startRadioButtons label:hover span,.startRadioButtons label:hover::after{visibility:visible}
+.occurrencSelect::part(form-control-label){--i2c-input-label-color:#4d506b}
+.occurrencInput::part(form-control-label){--i2c-input-label-color:#4d506b}
+.occurrencSelect::part(display-label){--i2c-input-spacing-medium:0}
+.occurrencSelect::part(control){--i2c-input-color:#242a41}
+.occurrencInput::part(input){--i2c-input-color:#242a41;--i2c-input-spacing-medium:0;border-bottom:1px solid #ccc}
+.occurrencInput::part(input):hover,.occurrencInput::part(input):focus{border-bottom:1px solid #46B0E6}
+.occurrencSelect::part(menu){margin-top:1px}
+.occurrencSelect::part(base){border-bottom:1px solid #ccc}
+.occurrencSelect::part(base):focus,.occurrencSelect::part(base):hover{border-bottom:1px solid #46B0E6}
+.ncns{display: flex;}
+.ncnsField1{margin-right: 24px; width: 15%;}
+
+
+@media only screen and (max-width: 1400px) {
+/* .startCategory{width:300px;margin-right:20px} */
+/* .startCategory i2c-select{width:300px} */
+.startRadioButtons{margin-right:20px}
+.startRadioInput{margin-right:0}
+/* .id i2c-select{width:300px} */
+.startRadioButtons.end{margin-right:30px}
+.startRadioOccurence{width:12%}
+}
+@media only screen and (max-width: 1200px) {
+.tabs ul{display:flex}
+.tabs .activeLi{border: 1px solid transparent; }
+.tabs ul li{border:1px solid #eeee;padding:7px 20px;border-radius: 6px; margin: 0 3px;}
+/* .id i2c-select{width:286px} */
+/* .startCategory i2c-select{width:286px} */
+/* .startRadioOccurence{margin-right:20px} */
+/* .startCategory{width:286px} */
+.startRadioButtons{margin-right:25px}
+.startRadioOccurence{width:84px}
+.startRadioOccurence.ncnsOcc{width:270px}
+}

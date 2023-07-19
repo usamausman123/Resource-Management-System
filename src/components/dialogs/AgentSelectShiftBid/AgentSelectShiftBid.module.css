@@ -1,0 +1,8 @@
+.select-shift-bid .shift-content .tag{    position: absolute;    top: 0;    top: 2px;    right: 3px;    background-color: #46B0E6;    padding: 0 4px;    border-radius: 100%;    color: #fff;    font-size: 10px;}
+.select-shift-bid .shift-content.active{    border: 1px solid #46B0E6 !important;    color: #46B0E6;}
+.select-shift-bid h2{margin-bottom: 20px; font-size: 18px; line-height: 22px; color: #201D1E; font-weight: 500;}
+.select-shift-bid .shift{position: relative;}
+.select-shift-bid .shift-work-container{margin-bottom: 40px;}
+.select-shift-bid .shift input[type=checkbox]{        position: absolute;width: 100%;left: 0;top: 0;opacity: 0;height: 100%;    cursor: pointer; z-index: 1;}
+.select-shift-bid .shift-content{width:100%;  border: 1px solid #E8E8EE; box-shadow: 0px 2px 4px rgba(70, 176, 230, 0.1);    border-radius: 5px; color: #201D1E;    position: relative;}
+

@@ -1,0 +1,4 @@
+.hoursCalculatorPopup .main {   display: flex;    flex-direction: column;    justify-content: center;    padding: 40px}
+.hoursCalculatorPopup .main h3{font-style: normal;    font-weight: 500;    font-size: 20px;    line-height: 24px; color: #201D1E;}
+.hoursCalculatorPopup .main svg{    background-color:#46B0E6;    border: 8px solid rgba(70, 176, 230, 0.1); border-radius: 100%;}
+.hoursCalculatorPopup .main .icon{   border: 8px solid rgba(70, 176, 230, 0.1); border-radius: 100%; margin: 0 auto; margin-bottom: 17px;}

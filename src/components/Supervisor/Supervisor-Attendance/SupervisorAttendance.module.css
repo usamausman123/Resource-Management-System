@@ -1,0 +1,861 @@
+.attendance-wrapper {
+    box-shadow: 0px 5px 10px rgb(141 144 172 / 10%);
+    border-radius: 5px; 
+    background: #fff;
+}
+
+.tabs-toggle .btn-check:focus+.btn-outline-secondary {
+    outline: 1px dotted #999;
+}
+.view-switch-tabs.tabs-toggle label {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-check {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+.btn-check+.btn-outline-secondary {
+    border-color: #eceef1;
+    background-color: #f7f8f9;
+    font-weight: 500;
+    padding: 8px 18px;
+    color: #666;
+    font-size: 12px;
+    line-height: 15px;
+    min-width: 100px;
+}
+.btn-outline-secondary:hover {
+    background-color: #f7f8f9;
+    color: #000;
+}
+.btn-check:checked+.btn-outline-secondary,
+.btn-check:active+.btn-outline-secondary,
+.btn-outline-secondary:active,
+.btn-outline-secondary.active,
+.btn-outline-secondary.dropdown-toggle.show {
+    background-color: #fff;
+    color: #000;
+    border-color: #eceef1;
+    box-shadow: none;
+    outline: none;
+}
+
+/*------------------------------------------------------*/
+
+.icon-dropdown-btn {
+    width: 22px;
+    height: 22px;
+    border-radius: 100% !important;
+    background: #46b0e6 !important;
+    color: #fff !important;
+    font-size: 8px;
+    justify-content: center;
+}
+.icon-dropdown-btn:after {
+    content: "";
+    margin: 0;
+}
+  
+.combine-filters {
+    padding: 0;
+    min-width: 326px;
+    padding: 0 15px;
+}
+.combine-filters > li {
+    font-size: 0.75rem;
+    line-height: 1.25;
+    padding: 15px 0;
+}
+.combine-filters > li.filter-heading h1 {
+    font-size: 0.875rem;
+    line-height: 1.2142857143;
+    color: #201D1E;
+    font-weight: 500;
+}
+.combine-filters > li:not(.filter-heading) {
+    border-top: 1px solid #D8DDE4;
+}
+.combine-filters > li > span {
+    color: #201D1E;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+}
+.combine-filters > li > span i {
+    color: #7A7B87;
+    opacity: 0.82;
+}
+.combine-filters > li > div {
+    margin-top: 10px;
+}
+.combine-filters > li > div ul {
+    background: #FAFAFA;
+    padding: 10px;
+}
+.combine-filters > li > div ul li {
+    font-size: 0.75rem;
+    line-height: 1.1666666667;
+    margin-bottom: 10px;
+}
+.combine-filters > li > div ul li a {
+    color: #201D1E;
+    text-decoration: none;
+}
+.combine-filters > li > div ul li a:hover {
+    color: #46b0e6;
+}
+.combine-filters .shift-checkbox::part(control) {
+    border-radius: 4px;
+}
+.combine-filters .shift-checkbox::part(label) {
+    color: #222;
+    font-size: 12px;
+    line-height: 24px;
+}
+.combine-filters > li > div .radio-btns {
+    padding: 0;
+    display: flex;
+}
+.combine-filters > li > div .radio-btn {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.combine-filters > li > div .radio-btn:not(:first-child) {
+    margin-left: 4px;
+}
+.combine-filters > li > div .radio-btn:not(:last-child) {
+    margin-right: 4px;
+}
+.combine-filters > li > div .radio-btn input[type=radio] {
+    clip: rect(0 0 0 0);
+    position: absolute;
+    z-index: -1;
+}
+.combine-filters > li > div .radio-btn input[type=radio]:checked ~ strong {
+    color: #46b0e6;
+    border-color: #46b0e6;
+}
+.combine-filters > li > div .radio-btn input[type=radio]:focus ~ span {
+    outline: 1px dotted;
+}
+.combine-filters > li > div .radio-btn strong {
+    width: 100%;
+    height: 100%;
+    padding: 6px 5px;
+    font-size: 0.75rem;
+    line-height: 1.1666666667;
+    font-weight: 500;
+    color: #201d1e;
+    border: 1px solid #e8e8ee;
+    box-shadow: 0px 2px 4px rgba(70, 176, 230, 0.1);
+    border-radius: 5px;
+    transition: all linear 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .combine-filters > li > div .radio-btn strong {
+        padding: 10.5px 5px;
+    }
+}
+.combine-filters > li > div .radio-btn strong:hover {
+    color: #46b0e6;
+    border-color: #46b0e6;
+}
+.combine-filters > li > div .radio-btn .radio-btn-name {
+    font-size: 0.5rem;
+    line-height: 1.25;
+}
+@media (min-width: 768px) {
+    .combine-filters > li > div .radio-btn .radio-btn-name {
+    font-size: 0.625rem;
+    line-height: 1.2;
+    }
+}
+.combine-filters > li > div .radio-btn .radio-btn-name:only-child {
+    font-size: 0.625rem;
+    line-height: 1.2;
+}
+@media (min-width: 768px) {
+    .combine-filters > li > div .radio-btn .radio-btn-name:only-child {
+    font-size: 0.75rem;
+    line-height: 1.1666666667;
+    }
+}
+.combine-filters > li.footer {
+    padding: 24px 17px;
+    margin: 0 -15px;
+    display: flex;
+    box-shadow: 5px -5px 10px rgba(141, 144, 172, 0.1);
+    border-top: 1px solid #F0F0F0;
+}
+
+
+/* Report Summary Section */
+.report-summary {
+    background-color: #ffffff;
+    padding: 22px 30px;
+    border-top: 1px solid #f0f0f0;
+}
+.report-summary div {
+    display: inline-block;
+    font-weight: 500;
+    margin-right: 10px;
+    white-space: nowrap;
+    font-size: 0.625rem;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.report-summary div span {
+    display: inline-block;
+    margin-left: 7px;
+    font-weight: 700;
+}
+.report-summary div span.green {
+    color: #03C04A;
+}
+.report-summary div span.red {
+    color: #EE4723;
+}
+.report-summary div span.blue {
+    color: #46B0E6;
+}
+.report-summary div span.yellow {
+    color: #EF9829;
+}
+@media screen and (min-width: 768px) {
+    .report-summary div {
+        font-size: 0.75rem;
+        line-height: 1.25;
+        margin-right: 30px;
+        color: #201D1E;
+    }
+}
+
+
+
+
+
+/* common table structure styles for agent attendance as well as supervisor attendance */
+.tbl-container {
+    overflow-x: auto;
+}
+.tbl-container > table {
+    min-width: 1300px;
+    width: 100%;
+}
+.standard-tbl-structure,
+.standard-tbl-structure table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.standard-tbl-structure thead tr th,
+.standard-tbl-structure table thead tr th {
+  background-color: #F7F8F9;
+  font-size: 0.75rem;
+  line-height: 1.25;
+  font-weight: 500;
+}
+.standard-tbl-structure thead tr th:not(.left-shadow-cell),
+.standard-tbl-structure table thead tr th:not(.left-shadow-cell) {
+  border-left: 0;
+}
+.standard-tbl-structure thead tr th:not(.right-shadow-cell),
+.standard-tbl-structure table thead tr th:not(.right-shadow-cell) {
+  border-right: 0;
+}
+.standard-tbl-structure thead tr th:not(.text-left, .align_left),
+.standard-tbl-structure table thead tr th:not(.text-left, .align_left) {
+  text-align: center;
+}
+.standard-tbl-structure thead tr .align_left,
+.standard-tbl-structure table thead tr .align_left {
+  text-align: left;
+}
+.standard-tbl-structure tbody tr td,
+.standard-tbl-structure table tbody tr td {
+  text-align: center;
+  font-size: 0.8125rem;
+  line-height: 1.3846153846;
+  font-weight: 400;
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+  height: 80px;
+}
+.standard-tbl-structure tbody tr td:last-child,
+.standard-tbl-structure table tbody tr td:last-child {
+  font-weight: 500;
+}
+.standard-tbl-structure tbody tr td .align_left,
+.standard-tbl-structure tbody tr td .text-left,
+.standard-tbl-structure table tbody tr td .align_left,
+.standard-tbl-structure table tbody tr td .text-left {
+  text-align: left;
+}
+.standard-tbl-structure tbody tr .table-body-content tbody tr:first-child td,
+.standard-tbl-structure table tbody tr .table-body-content tbody tr:first-child td {
+  border-top: 0;
+}
+.standard-tbl-structure th,
+.standard-tbl-structure td,
+.standard-tbl-structure table th,
+.standard-tbl-structure table td {
+  padding: 9px 8px;
+  word-break: break-word;
+  border: 1px solid #ECEEF1;
+  vertical-align: middle;
+  position: relative;
+}
+.standard-tbl-structure th.left-shadow-cell > div:before,
+.standard-tbl-structure td.left-shadow-cell > div:before,
+.standard-tbl-structure table th.left-shadow-cell > div:before,
+.standard-tbl-structure table td.left-shadow-cell > div:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 10px;
+  box-shadow: -5px 5px 10px rgba(141, 144, 172, 0.1);
+  z-index: 1;
+}
+.standard-tbl-structure th.right-shadow-cell,
+.standard-tbl-structure td.right-shadow-cell,
+.standard-tbl-structure table th.right-shadow-cell,
+.standard-tbl-structure table td.right-shadow-cell {
+  border-left: 0;
+}
+.standard-tbl-structure th.right-shadow-cell > div:after,
+.standard-tbl-structure td.right-shadow-cell > div:after,
+.standard-tbl-structure table th.right-shadow-cell > div:after,
+.standard-tbl-structure table td.right-shadow-cell > div:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  box-shadow: 4px 0 14px 1px rgba(141, 144, 172, 0.8);
+  z-index: 1;
+}
+.standard-tbl-structure thead tr th:last-child,
+.standard-tbl-structure tbody td:last-child,
+.standard-tbl-structure table thead tr th:last-child,
+.standard-tbl-structure table tbody td:last-child {
+  border-right: 0;
+}
+
+.standard-tbl-structure:not(.no-alternat) tbody tr:nth-child(even) td:not([class*=bg-]) {
+  background-color: #FAFAFC !important;
+}
+.standard-tbl-structure:not(.no-alternat) tbody tr:nth-child(odd) td:not([class*=bg-]) {
+  background-color: #fff;
+}
+.standard-tbl-structure.no-alternat tbody tr td {
+    background: #fff;
+}
+/* ********************************************************************* */
+
+
+
+.standard-tbl-structure.attendance-schedule-table thead tr:first-child th {
+  background: #F7F8F9;
+}
+.standard-tbl-structure.attendance-schedule-table thead tr:last-child th {
+  color: #666;
+  background: #F6FBFE;
+}
+.standard-tbl-structure thead tr:last-child th.weekend-cell,
+.attendance-schedule-table thead tr:last-child th.weekend-cell {
+  background: #ECEDF1;
+}
+.standard-tbl-structure tbody tr:first-child td,
+.attendance-schedule-table tbody tr:first-child td {
+  border-top: 0;
+}
+.standard-tbl-structure tbody tr td,
+.attendance-schedule-table tbody tr td {
+  padding-left: 1px;
+  padding-right: 1px;
+  border-style: dashed;
+}
+.standard-tbl-structure tbody tr td.right-shadow-cell,
+.attendance-schedule-table tbody tr td.right-shadow-cell {
+  border-right-style: solid;
+}
+.standard-tbl-structure tbody tr td.right-shadow-cell + td,
+.attendance-schedule-table tbody tr td.right-shadow-cell + td {
+  border-left: 0;
+  padding-left: 10px;
+}
+.standard-tbl-structure tbody tr td.left-shadow-cell,
+.attendance-schedule-table tbody tr td.left-shadow-cell {
+  border-left: 0;
+}
+.standard-tbl-structure tbody tr td.left-shadow-cell, .standard-tbl-structure tbody tr td.left-shadow-cell ~ td,
+.attendance-schedule-table tbody tr td.left-shadow-cell,
+.attendance-schedule-table tbody tr td.left-shadow-cell ~ td {
+  border-top: 0;
+  border-bottom: 0;
+  border-style: solid;
+}
+.standard-tbl-structure tbody tr.rendered-row td,
+.attendance-schedule-table tbody tr.rendered-row td {
+  background: rgba(249, 249, 249, 0.609) !important;
+}
+.standard-tbl-structure tbody tr.team-name-row td,
+.attendance-schedule-table tbody tr.team-name-row td {
+  background: #F6FBFE !important;
+  box-shadow: 0px 2px 5px rgba(138, 138, 140, 0.1);
+  border-top: 1px solid #ECEEF1;
+  border-bottom: 1px solid #ECEEF1;
+  color: #666;
+  font-weight: 500;
+  text-align: left;
+  height: unset;
+  padding-left: 25px;
+}
+.standard-tbl-structure tbody tr.bg-light-yellow,
+.attendance-schedule-table tbody tr.bg-light-yellow {
+  background: #FEF5E9 !important;
+}
+.standard-tbl-structure tbody tr.bg-light-green,
+.attendance-schedule-table tbody tr.bg-light-green {
+  background: rgba(3, 192, 74, 0.05) !important;
+}
+.standard-tbl-structure tbody tr.child-scroll-box,
+.attendance-schedule-table tbody tr.child-scroll-box {
+  max-height: 600px;
+}
+
+.attendance-schedule-table .employee-details-cell {
+    text-decoration: none;
+    color: #222;
+}
+.attendance-schedule-table .employee-details-cell > span:nth-child(2){
+    color: #666;
+}
+
+table .time-slot-box {
+    max-width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.1933333333;
+    font-size: 0.75rem;
+    border-left-width: 1px;
+    text-align: center;
+    padding: 5px 14px;
+    min-height: 53px;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: center;
+}
+table .time-slot-box.blue {
+    background: #edf7fc;
+    border-left: 1px solid #46b0e6;
+}
+table .time-slot-box.gray {
+    background: #f6f6f6;
+    border-left: 1px solid #8e90aa;
+    color: #8e90aa;
+}
+table .time-slot-box.yellow {
+    background: #fdf5ea;
+    border-left: 1px solid #ef9829;
+    color: #ef9829;
+}
+table .time-slot-box.red {
+    background: #ffe2e1;
+    border-left: 1px solid #ee4723;
+    color: #EE4723;
+}
+.agents-opener-button::part(base),
+.agents-opener-button::part(base):hover {
+    background: #fff;
+    border:0;
+}
+/************* Shifts Bid section styles ****************************/
+.schedule-time-table tbody tr td {
+    border-style: solid !important;
+    border-left: 0;
+    border-right: 0;
+}
+.schedule-time-table tbody tr td[data-bs-target],
+.schedule-time-table tbody tr td[data-bs-target] ~ td {
+    border-bottom: 0;
+}
+.schedule-time-table tbody tr.rendered-row td.bg-white {
+    background: #fff !important;
+}
+.schedule-time-table tbody tr td .badge-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.schedule-time-table tbody tr td .badge-item .status-badge {
+    font-weight: 500;
+    font-size: 0.625rem;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    padding: 5px 10px;
+}
+.schedule-time-table tbody tr td .badge-item .status-badge.purple {
+    color: #6F82E8;
+}
+.schedule-time-table thead td:not([colspan]):not(.text-center):not(:last-child),
+.schedule-time-table thead th:not(:last-child),
+.schedule-time-table tbody td:not([colspan]):not(.text-center):not(:last-child),
+.schedule-time-table tbody th:not(:last-child) {
+    text-align: left !important;
+}
+.schedule-time-table thead td:not([colspan]):not(.text-center):first-child,
+.schedule-time-table thead th:first-child,
+.schedule-time-table tbody td:not([colspan]):not(.text-center):first-child,
+.schedule-time-table tbody th:first-child {
+    padding-left: 1.5rem !important;
+}
+.schedule-time-table thead td:not([colspan]):not(.text-center):after,
+.schedule-time-table thead th:after,
+.schedule-time-table tbody td:not([colspan]):not(.text-center):after,
+.schedule-time-table tbody th:after {
+    box-shadow: unset !important;
+}
+.schedule-time-table thead .rendered-row-parent td[colspan],
+.schedule-time-table tbody .rendered-row-parent td[colspan] {
+    height: unset;
+}
+.schedule-time-table .status-col {
+    width: 200px;
+}
+
+.avatars span {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 30px;
+    border: 1px solid #fff;
+}
+.avatars span:not(:first-child) {
+    margin-left: -12px;
+}
+.avatars span img {
+    width: 100%;
+    display: block;
+}
+.avatars i {
+    display: inline-block;
+    padding: 8px;
+    vertical-align: top;
+    font-size: 0.8125rem;
+    line-height: 1;
+    letter-spacing: -0.3px;
+    color: #666;
+    font-style: normal;
+    border-radius: 50%;
+    background: #f1f1f1;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.status-badge {
+    position: relative;
+    padding: 6px 8px 6px 24px;
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 0.6875rem;
+    line-height: 1.0833333333;
+}
+.status-badge.dotless {
+    padding: 4px 15px 4px 15px;
+}
+.status-badge:not(.dotless):before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 8px;
+}
+.status-badge.success,
+.status-badge.green {
+    background: rgba(3, 192, 74, 0.1);
+    color: #03C04A;
+}
+.status-badge.success:before,
+.status-badge.green:before {
+    background: #03C04A;
+}
+.status-badge.warning,
+.status-badge.yellow {
+    background: rgba(239, 152, 41, 0.1);
+    color: #ef9829;
+}
+.status-badge.warning:before,
+.status-badge.yellow:before {
+    background: #ef9829;
+}
+.status-badge.danger,
+.status-badge.red {
+    background: rgba(238, 71, 35, 0.1);
+    color: #EE4723;
+}
+.status-badge.danger:before,
+.status-badge.red:before {
+    background: #EE4723;
+}
+.status-badge.info,
+.status-badge.blue {
+    background: rgba(70, 177, 230, 0.1);
+    color: #46b0e6;
+}
+.status-badge.info:before,
+.status-badge.blue:before {
+    background: #46b0e6;
+}
+.status-badge.purple {
+    background: rgba(123, 144, 254, 0.1);
+    color: #7B90FE;
+}
+.status-badge.purple:before {
+    background: #7B90FE;
+}
+
+
+.compare_Table thead tr th {
+    color: #666;
+}
+.compare_Table thead tr th.bg-yellow {
+    background: #FDF5EA !important;
+}
+.compare_Table thead tr th.bg-light-yellow {
+    background: rgba(253, 245, 234, 0.3) !important;
+}
+.compare_Table thead tr th.bg-green {
+    background: rgba(147, 240, 182, 0.2) !important;
+}
+.compare_Table thead tr th.bg-light-green {
+    background: rgba(147, 240, 182, 0.1) !important;
+}
+.compare_Table thead tr th.text-center {
+    text-align: center !important;
+}
+.compare_Table thead tr:first-child th:first-child {
+    width: 230px;
+}
+.compare_Table thead tr:first-child th:not([rowspan]) {
+    color: #201D1E;
+    font-weight: 700;
+}
+.compare_Table thead tbody td.text-center {
+    text-align: center !important;
+}
+
+.compare_Wrapper {
+    width: 100%;
+    overflow: auto;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);
+    /* Inner table*/
+    /*inner table with sticky values ends*/
+    /* inner table without sticky values*/
+}
+.compare_Wrapper .compare_Table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0;
+    width: 100%;
+    white-space: nowrap;
+    /* (STICKY HEADERS */
+    /* (C) COSMETICS - NOT IMPORTANT */
+    /* bacsic styling*/
+}
+.compare_Wrapper .compare_Table th {
+    vertical-align: middle;
+}
+.compare_Wrapper .compare_Table th.status-dropdown {
+    width: 54px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.compare_Wrapper .compare_Table th.status-dropdown .dropdown .dropdown-toggle {
+    padding: 11px 6px;
+}
+.compare_Wrapper .compare_Table th.status-dropdown .dropdown .dropdown-toggle:after {
+    display: none;
+}
+.compare_Wrapper .compare_Table th.status-dropdown .dropdown .dropdown-toggle span {
+    margin: 1px;
+    font-size: 0.25rem;
+}
+.compare_Wrapper .compare_Table th.status-dropdown .dropdown .dropdown-menu .dropdown-item {
+    text-transform: capitalize;
+}
+.compare_Wrapper .compare_Table th.user-info-cell {
+    width: 33%;
+}
+.compare_Wrapper .compare_Table th.user-location-cell {
+    width: 20%;
+}
+.compare_Wrapper .compare_Table th {
+    padding: 0 11px;
+}
+.compare_Wrapper .compare_Table th,
+.compare_Wrapper .compare_Table td {
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.compare_Wrapper .compare_Table th:first-child,
+.compare_Wrapper .compare_Table td:first-child {
+    padding-left: 25px;
+}
+.compare_Wrapper .compare_Table td {
+    padding: 11px;
+}
+.compare_Wrapper .compare_Table tr {
+    border-top: 1px solid #F0F0F0;
+}
+.compare_Wrapper .compare_Table tr .comp_heading {
+    height: 37px;
+    vertical-align: middle;
+    background: #FAFAFC;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    color: rgba(32, 29, 30, 0.76);
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.compare_Wrapper .compare_Table tr .comp_heading_1 {
+    border: 1px solid #F0F0F0;
+    background: rgba(238, 238, 238, 0.6);
+    height: 31px;
+}
+.compare_Wrapper .compare_Table tr .grey-text {
+    color: #666666;
+}
+.compare_Wrapper .compare_Table tr .border-right-dark {
+    border-right: 1px solid #DDDDDD;
+}
+.compare_Wrapper .compare_Table tr .border-right-light {
+    border-right: 1px solid #F0F0F0;
+}
+.compare_Wrapper .compare_Table tr .border-left {
+    border-left: 1px solid #F0F0F0;
+}
+.compare_Wrapper .compare_Table tr .border-bottom {
+    border-bottom: 1px solid #F0F0F0;
+}
+.compare_Wrapper .compare_Table tr .body_values {
+    background: #ffffff;
+    border-bottom: 1px solid #F0F0F0;
+    vertical-align: middle;
+    height: 80px;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1.3846153846;
+    color: #201D1E;
+    text-align: center;
+    letter-spacing: -0.3px;
+}
+.compare_Wrapper .compare_Table tr .body_values a {
+    padding: 0;
+}
+.compare_Wrapper .compare_Table tr .align_left {
+    text-align: left;
+}
+.compare_Table .action-icon {
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    margin: 0 5px;
+}
+.compare_Table .approve-shift-icon:hover > path,
+.compare_Table .edit-shift-icon:hover > path {
+    stroke: #1dc756;
+}
+.compare_Table .reject-shift-icon:hover > path {
+    stroke: #d61f1f;
+}
+
+@media (max-width: 1400px) {
+    .compare_Wrapper {
+        overflow-x: hidden;
+    }
+    .compare_Wrapper .compare_Table td,
+    .compare_Wrapper .compare_Table th {
+        white-space: break-spaces;
+    }
+    .compare_Wrapper .compare_Table th,
+    .compare_Wrapper .compare_Table th:nth-last-child(2) {
+        position: relative;
+        right: 0;
+    }
+}
+/*****************************************/
+
+.text-gray {
+    color: #8e90aa;
+}
+
+.week-days .week-day {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #e8e8ee;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    color: #201d1e;
+    font-size: 0.9rem;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.week-days .week-day.active {
+    color: #46b0e6;
+    border-color: #46b0e6;
+}
+
+.backdrop-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+/*add schedule dropdown css start*/ 
+.last-dropdown-button::part(base) {    --i2c-button-border-radius: 0 5px 5px 0;}
+.last-dropdown-button button{    border-radius: --i2c-button-border-radius;}
+.add-schedule-dropdown-button::part(base){    --i2c-button-border-radius:  5px 0 0 5px;}
+.add-schedule-dropdown-button button{   border-radius: --i2c-button-border-radius;}
+
+
+/*add schedule dropdown css end*/ 
+
+
+
+   

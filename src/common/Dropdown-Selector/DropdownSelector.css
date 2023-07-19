@@ -1,0 +1,20 @@
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #666 !important;
+}
+.css-a3l6o-MuiInputBase-root-MuiInput-root-MuiSelect-root:after { 
+    border-bottom:2px solid #666 !important;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list { 
+    padding: 8px !important; 
+}
+.css-6hp17o-MuiList-root-MuiMenu-list .dropdown-item {
+    padding: 8px !important;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list .dropdown-item:active, 
+.css-6hp17o-MuiList-root-MuiMenu-list .dropdown-item:hover,
+.css-6hp17o-MuiList-root-MuiMenu-list .dropdown-item.Mui-selected,
+.css-6hp17o-MuiList-root-MuiMenu-list .dropdown-item.Mui-selected:hover { 
+    background-color: #46B0E6; 
+    color: #fff; 
+    border-radius: 5px; 
+}

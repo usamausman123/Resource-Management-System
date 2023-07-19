@@ -1,0 +1,12 @@
+.child-table-row .table-head{
+    background-color: #EFF0F5;
+    border: 1px solid #EFF0F5;
+    color: #000000;
+}
+.child-table-row .table-head th{
+    padding: 10px;
+}
+.child-table-row .table-data {
+    background-color: #fff;
+    border: 1px solid #EFF0F5;
+}

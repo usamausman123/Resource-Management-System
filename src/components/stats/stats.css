@@ -1,0 +1,56 @@
+/*Stats*/
+.stats .component-container{
+    padding: 16px;
+}
+.stats h2 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.hours-calculator .button-default:hover > svg path{ stroke: #FFFFFF;}
+.stats p{ margin: 0 0 16px;}
+.stats .card-title{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.request-list{ margin-bottom: 20px; font-size: 12px; line-height: 18px;}
+.request-list li{ margin-bottom: 4px; display: flex; align-items: stretch; }
+.request-list li svg{ margin-right: 8px;}
+.stats .card-basic::part(body){ padding: 12px;}
+.stats .card-basic .icon{ margin-bottom: 8px;}
+.stats .component-header p span{
+   display: inline-block;
+}
+.stats-cards {
+    display: flex;
+}
+
+.card-basic::part(base){
+  border: var(--i2c-base-no-border);
+  box-shadow: var(--i2c-base-no-boxshadow);
+}
+
+.card-basic span{
+    background: rgba(235, 239, 244, 0.5);
+    border: 1px solid #E3E7ED;
+    border-radius: 100px;
+    color: #201D1E;
+    padding: 5px 15px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.card-basic {
+    width: 100%;
+    min-height:197px;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    position: relative;
+}
+.card-basic .button-default,
+.card-basic span {position: absolute; bottom: 16px; left: 16px;}
+

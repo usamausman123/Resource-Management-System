@@ -1,0 +1,11 @@
+
+.SelectFlextimeDialog h2{margin-bottom: 20px; font-size: 18px; line-height: 22px; color: #201D1E;}
+.SelectFlextimeDialog ul {display:flex;}
+.SelectFlextimeDialog ul li{font-size: 13px; line-height: 16px; color: #201D1E;  margin-right: 16px;border: 1px solid #E8E8EE; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);border-radius: 5px; cursor: pointer;   display: flex;    justify-content: center;    align-items: center; padding: 16px 17px; white-space: nowrap;}
+.SelectFlextimeDialog ul li.active-li{color: #46B0E6; border:1px solid #46B0E6;}
+.SelectFlextimeDialog ul li.inactive-li{font-size: 13px;    line-height: 16px;             color: #201D1E;        opacity: 0.5;    border: 1px solid #E8E8EE; pointer-events: none;}
+.SelectFlextimeDialog .time-content{margin-bottom: 10px;}
+.SelectFlextimeDialog .time-content.spacer{margin-bottom: 60px;}
+
+
+

@@ -1,0 +1,32 @@
+
+
+/*Request Time Off Dialog*/
+.timeoff-dialog .timeoff-dialog-heading,
+.dispute-dialog .timeoff-dialog-heading {   font-weight: 700;    line-height: 1.5rem;    padding: 30px 30px 16px 30px;}
+.timeoff-dialog .timeoff-dialog-subheading,
+.dispute-dialog .timeoff-dialog-subheading {    padding: 0px 30px;   }
+.text-area::part(base) {    border: var(--i2c-form-textarea-noborder);}
+.text-area::part(textarea) {    height: var(--i2c-form-textarea-small);    border-bottom: var(--i2c-form-textarea-border);    padding: var(--i2c-form-textarea-nopadding);}
+.text-area::part(form-control-label) {    color: var(--i2c-text-color);    font-size: var(--i2c-text-size);}
+.timeoff-dialog form select,
+.dispute-dialog form select {    background-color: #ffffff;    box-shadow: none;    border-width: 0 0 1px 0;   border-style: solid;    border-color: #D8DDE4;    width: 100%;    padding-bottom: 10px;    margin-bottom: 20px;}
+.background {   background-color: rgba(232, 232, 238, 0.15);}
+.badge-strip {    background-color: #E8E8EE;    padding: 16px 30px;}
+.primary-badge {
+    background: #F1FAFF;
+    border: 1px solid rgba(70, 176, 230, 0.28);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin-bottom: 35px;
+}
+.timeoff-dialog .footer,
+.dispute-dialog .footer {    padding: 20px;    background-color: rgba(232, 232, 238, 0.15);    border-top: 1px solid rgba(232, 232, 238, 0.75);}
+.timeoff-dialog .footer .col-50,
+.dispute-dialog .footer .col-50 {    padding: 0 10px;}
+.timeoff-dialog::part(header),
+.dispute-dialog::part(header) {   padding: var(--i2c-header-no-padding);}
+.timeoff-dialog::part(body),
+.dispute-dialog::part(body) {    padding: var(--i2c-body-no-padding);}
+.timeoff-dialog::part(panel),
+.dispute-dialog::part(panel) {    padding: var(--i2c-body-no-padding);    box-shadow: var(--i2c-box-shadow);    border-radius: var(--i2c-form-box-shadow);    max-width: 550px;    width: 100%;}

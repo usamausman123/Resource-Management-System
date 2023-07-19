@@ -1,0 +1,35 @@
+.supervisor-flex-promotion-list {
+    overflow-x: auto;
+}
+.supervisor-flex-promotion-list table {
+    min-width: 1200px;
+    width: 100%;
+}
+.supervisor-flex-promotion-list tbody tr:nth-child(2n+1) {
+    background: #FAFAFC;
+    border: solid #EFF0F5;
+    border-width: 1px 0;
+}
+.factorLabel,
+.amountLabel{
+    display: inline-flex;
+    align-items: center;
+}
+
+.textOrange,
+.textBlue{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.textOrange{
+    color: #EF9829;
+    font-weight: 700;
+}
+
+.textBlue{
+    color: #46B0E6;
+    font-weight: 700;
+}

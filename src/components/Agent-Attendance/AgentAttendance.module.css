@@ -1,0 +1,561 @@
+.tbl-container {
+    overflow-x: auto;
+}
+.tbl-container > table {
+    min-width: 1300px;
+    width: 100%;
+}
+.attendance-wrapper {
+    box-shadow: 0px 5px 10px rgb(141 144 172 / 10%);
+    border-radius: 5px; 
+    background: #fff;
+}
+.p-4 {
+    padding: 1.5rem;
+}
+.attendance-record-container{ padding: 16px;}
+.attendance-record-container h1{ line-height: 26px; margin-top: 5px;}
+.attendance-record-container .nav{ background: #F5F5FA; padding: 4px; border-radius: 8px;}
+.btn-check {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+.btn-outline-secondary {
+    font-weight: 500;
+    padding: 8px 18px;
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 6px;
+}
+.btn-outline-secondary:hover {
+    background-color: #f7f8f9;
+    color: #000;
+    box-shadow: 0px 1px 2px 0px #1018280F;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+}
+.btn-check:checked+.btn-outline-secondary,
+.btn-check:active+.btn-outline-secondary,
+.btn-outline-secondary:active,
+.btn-outline-secondary.active,
+.btn-outline-secondary:hover,
+.btn-outline-secondary.dropdown-toggle.show {
+    background-color: #fff;
+    color: #000;
+    border-color: #eceef1;
+    box-shadow: none;
+    outline: none;
+    border-radius: 6px !important;
+    box-shadow: 0px 1px 2px 0px #1018280F;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+}
+.tabs-toggle .btn-check:focus+.btn-outline-secondary {
+    outline: 1px dotted #999;
+}
+
+
+
+.chart-indicators span {
+    color: #000000;
+    margin-right: 18px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 14px;
+}
+.chart-indicators span i {
+    width: 10px;
+    display: inline-block;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+    position: relative;
+    top: 1px;
+}
+.chart-indicators span i.blue {
+    background: #46B0E6;
+}
+.chart-indicators span i.light-blue {
+    background: #6DBEE7;
+}
+.chart-indicators span i.red {
+    background: #EE4723;
+}
+.chart-indicators span i.light-red {
+    background: #EF7373;
+}
+.chart-indicators span i.yellow {
+    background: #EF9829;
+}
+.chart-indicators span i.green {
+    background: #03C04A;
+}
+.chart-indicators span i.purple {
+    background: #9B89FF;
+}
+.chart-indicators span i.gray {
+    background: #666;
+}
+
+.view-switch-tabs.tabs-toggle label {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.time-view-dropdown .time-view-dropdown-item::part(base):hover { 
+    background: #46b0e6; 
+}
+
+.standard-tbl-structure,
+.standard-tbl-structure table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.standard-tbl-structure thead tr th,
+.standard-tbl-structure table thead tr th {
+  background-color: #F7F8F9;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.standard-tbl-structure thead tr th:not(.left-shadow-cell),
+.standard-tbl-structure table thead tr th:not(.left-shadow-cell) {
+  border-left: 0;
+}
+.standard-tbl-structure thead tr th:not(.right-shadow-cell),
+.standard-tbl-structure table thead tr th:not(.right-shadow-cell) {
+  border-right: 0;
+}
+.standard-tbl-structure thead tr th:not(.text-left, .align_left),
+.standard-tbl-structure table thead tr th:not(.text-left, .align_left) {
+  text-align: center;
+}
+.standard-tbl-structure thead tr .align_left,
+.standard-tbl-structure table thead tr .align_left {
+  text-align: left;
+}
+.standard-tbl-structure tbody tr td,
+.standard-tbl-structure table tbody tr td {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+  height: 80px;
+}
+.standard-tbl-structure tbody tr td:last-child,
+.standard-tbl-structure table tbody tr td:last-child {
+  font-weight: 500;
+}
+.standard-tbl-structure tbody tr td .align_left,
+.standard-tbl-structure tbody tr td .text-left,
+.standard-tbl-structure table tbody tr td .align_left,
+.standard-tbl-structure table tbody tr td .text-left {
+  text-align: left;
+}
+.standard-tbl-structure tbody tr .table-body-content tbody tr:first-child td,
+.standard-tbl-structure table tbody tr .table-body-content tbody tr:first-child td {
+  border-top: 0;
+}
+.standard-tbl-structure th,
+.standard-tbl-structure td,
+.standard-tbl-structure table th,
+.standard-tbl-structure table td {
+  padding: 8px;
+  word-break: break-word;
+  /* border: 1px solid #ECEEF1; */
+  vertical-align: middle;
+  position: relative;
+}
+.standard-tbl-structure th.left-shadow-cell > div:before,
+.standard-tbl-structure td.left-shadow-cell > div:before,
+.standard-tbl-structure table th.left-shadow-cell > div:before,
+.standard-tbl-structure table td.left-shadow-cell > div:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 10px;
+  box-shadow: -5px 5px 10px rgba(141, 144, 172, 0.1);
+  z-index: 1;
+}
+.standard-tbl-structure th.right-shadow-cell,
+.standard-tbl-structure td.right-shadow-cell,
+.standard-tbl-structure table th.right-shadow-cell,
+.standard-tbl-structure table td.right-shadow-cell {
+  border-left: 0;
+}
+.standard-tbl-structure th.right-shadow-cell > div:after,
+.standard-tbl-structure td.right-shadow-cell > div:after,
+.standard-tbl-structure table th.right-shadow-cell > div:after,
+.standard-tbl-structure table td.right-shadow-cell > div:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  box-shadow: 4px 0 14px 1px rgba(141, 144, 172, 0.8);
+  z-index: 1;
+}
+.standard-tbl-structure thead tr th:last-child,
+.standard-tbl-structure tbody td:last-child,
+.standard-tbl-structure table thead tr th:last-child,
+.standard-tbl-structure table tbody td:last-child {
+  border-right: 0;
+}
+
+.standard-tbl-structure:not(.no-alternat) tbody tr:nth-child(even) td:not([class*=bg-]) {
+  background-color: #FAFAFC !important;
+}
+.standard-tbl-structure:not(.no-alternat) tbody tr:nth-child(odd) td:not([class*=bg-]) {
+  background-color: #fff;
+}
+
+.standard-tbl-structure thead tr th,
+.attendance-table.standard-tbl-structure thead tr th{
+    letter-spacing: 0.2px;
+    height: 37px;
+    color: #000;
+}
+
+.standard-tbl-structure table tbody tr td,
+.attendance-table.standard-tbl-structure table tbody tr td{
+    border-style: solid;
+}
+.standard-tbl-structure tbody tr td.bg-green,
+.attendance-table.standard-tbl-structure tbody tr td.bg-green {
+    background: rgba(147, 240, 182, 0.2);
+}
+.standard-tbl-structure tbody tr td.bg-blue,
+.attendance-table.standard-tbl-structure tbody tr td.bg-blue {
+    background-color: #E9F7FF;
+}
+.standard-tbl-structure tbody tr td.bg-purple,
+.attendance-table.standard-tbl-structure tbody tr td.bg-purple {
+    background: rgba(210, 223, 255, 0.5);
+}
+.standard-tbl-structure tbody tr td.bg-gray,
+.attendance-table.standard-tbl-structure tbody tr td.bg-gray {
+    background: #F4F4F7;
+}
+.standard-tbl-structure tbody tr td.bg-red,
+.attendance-table.standard-tbl-structure tbody tr td.bg-red {
+    background-color: #FFEEEA;
+}
+.standard-tbl-structure tbody tr td.bg-yellow,
+.attendance-table.standard-tbl-structure tbody tr td.bg-yellow {
+    background: #FDF5EA;
+}
+.attendance-table tbody tr td:first-child{ font-weight: 500;}
+.attendance-table tbody tr:first-child td {
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+
+}
+.attendance-table tbody tr td {
+    border-bottom: 0;
+    border-top: 0;
+    border-style: dashed;
+    height: auto !important;
+    vertical-align: middle;
+    background: #fff !important;
+}
+.attendance-table tbody tr td.graph-box {
+    background: rgba(216, 216, 216, 0.0001) !important;
+    position: relative;
+}
+.standard-tbl-structure.attendance-table tbody tr td.graph-box {
+  background: rgba(216, 216, 216, 0.0001) !important;
+  position: relative;
+}
+.standard-tbl-structure.attendance-table tbody tr td.right-shadow-cell  {
+  border-style: solid;
+}
+.standard-tbl-structure.attendance-table tbody tr td.left-shadow-cell {
+  border-left-style: solid;
+}
+.standard-tbl-structure.attendance-table tbody tr td .x-axis {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 10px;
+}
+.standard-tbl-structure.attendance-table tbody tr td .x-axis i {
+  flex: 1;
+  text-align: left;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999;
+  font-style: normal;
+}
+.standard-tbl-structure.attendance-table tbody tr td .no-shift-text {
+  position: absolute;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666;
+  height: 15px;
+  width: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+  margin: auto;
+}
+.standard-tbl-structure.attendance-table tbody tr td .graph-cell {
+  overflow: hidden;
+  height: 38px;
+  display: block;
+  width: 100%;
+}
+.standard-tbl-structure.attendance-table tbody tr td .graph-cell .graph-piece {
+  border: 0.5px solid #fff;
+  height: 38px;
+  position: absolute;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 11px 5px;
+  color: #fff;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s;
+}
+.standard-tbl-structure.attendance-table tbody tr td .graph-cell .graph-piece:first-child, 
+.standard-tbl-structure.attendance-table tbody tr td .graph-cell .graph-piece.left-radius  {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.standard-tbl-structure.attendance-table tbody tr td .graph-cell .graph-piece:last-child, 
+.standard-tbl-structure.attendance-table tbody tr td .graph-cell .graph-piece.right-radius {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.standard-tbl-structure.attendance-table tbody tr td .graph-cell.no-shift {
+  background: #eee;
+  margin: 0 -8px;
+  width: unset;
+}
+.standard-tbl-structure.attendance-table tbody tr td.bg-green {
+  background: rgba(147, 240, 182, 0.2);
+}
+.standard-tbl-structure.attendance-table tbody tr td.bg-blue {
+  background: rgba(210, 223, 255, 0.5);
+}
+.standard-tbl-structure.attendance-table tbody tr td.bg-gray {
+  background: #F4F4F7;
+}
+.standard-tbl-structure.attendance-table tbody tr td.bg-red {
+  background-color: #FFEEEA;
+}
+.standard-tbl-structure.attendance-table tbody tr td.bg-yellow {
+  background: #FDF5EA;
+}
+
+.indicators-row {
+    background: #FAFAFC !important;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid;
+    border: 1px solid rgba(132, 148, 165, 0.15);
+}
+
+
+.table-shifts,
+.requests-table tbody tr td {
+    height: 76px;
+    letter-spacing: -0.3px;
+}
+
+.table-shifts thead tr:first-child th:first-child,
+.table-shifts tbody td:first-child {
+    position: relative;
+}
+.table-shifts thead tr:first-child th:first-child:after,
+.table-shifts tbody td:first-child:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    /* box-shadow: 4px 0 14px 1px rgb(141 144 172 / 65%); */
+    z-index: 1;
+}
+
+.time-picker {
+    position: absolute;
+    top: 30px;
+    z-index: 2;
+}
+
+.backdrop-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.flex-popup-item {
+    border: 1px solid #e8e8ee;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.flex-popup-item .flex-popup-item-time-slot {
+    letter-spacing: -0.3px;
+    margin-bottom: 8px;
+}
+
+.flex-popup-item .flex-popup-item-time-slot-detail {
+    letter-spacing: 0.2px;
+}
+.flex-popup-item .flex-popup-item-time-slot-detail .flex-time-award img {
+    position: relative;
+    top: -2px;
+}
+.flex-popup-item .request-type {
+    font-size: 12px;
+    line-height: 14px;
+    color: #222;
+    margin-top: 6px;
+    display: block;
+}
+
+.request-time-modal .pto-balance {
+    background: #E8E8EE;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 16px 30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 30px;
+}
+.requests-modal .requests-list-actions {
+    margin-bottom: 20px;
+}
+.requests-modal .requests-list-actions span {
+    font-size: 14px;
+    line-height: 17px;
+}
+.requests-modal .requests-list-actions span a[class*="icon-"] {
+    font-size: 9px;
+    color: #666;
+    display: inline-block;
+    text-decoration: none;
+}
+.requests-modal .requests-list-actions span a[class*="icon-"].disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.requests-modal .requests-list-actions .view-all-link {
+    font-size: 12px;
+    line-height: 14px;
+    color: #666;
+}
+
+.custom-tooltip .tooltip-inner {
+    text-align: left !important;
+    padding: 0;
+    font-size: 11px;
+    line-height: 13px;
+    min-width: 150px; 
+}
+.custom-tooltip .tooltip-inner .tooltip-heading {
+    font-weight: 500;
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+}
+.custom-tooltip .tooltip-inner .tooltip-padding {
+    padding: 10px 15px;
+}
+.custom-tooltip .tooltip-inner .text-red {
+    color: #F78D76; 
+}
+.custom-tooltip .tooltip-inner .status-badge {
+    background-color: #e9d4d1;
+    padding: 4px 9px;
+    font-size: 9px;
+    line-height: 11px;
+    color: #F78D76;
+}
+.custom-tooltip .tooltip-inner ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.custom-tooltip .tooltip-inner ul li { 
+    display: block;
+}
+.custom-tooltip .tooltip-inner ul li:not(:last-child) { 
+    border-bottom: 1px solid #4A4A4A;
+}
+
+.hours-calculator-modal .modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.hours-calculator-modal .modal-content .modal-body p { 
+    font-size: 14px;
+    line-height: 18px;
+    color: #666;
+    margin: 15px 0 35px;
+}
+.hours-calculator-modal .modal-content .modal-body .calculator-icon-outer-circle {  
+    background: rgba(70, 176, 230, 0.1);
+    width: 55px;
+    height: 55px;
+    padding: 7px;
+    border-radius: 100%;
+    display: block;
+    margin: 34px auto 17px;
+}
+.hours-calculator-modal .modal-content .modal-body .calculator-icon-outer-circle .calculator-icon-inner-circle {  
+    background: #46B0E6;
+    border-radius: 100%;
+    padding: 5px 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.hours-calculator-modal .modal-content .modal-body .calculator-icon-outer-circle .calculator-icon-inner-circle span {  
+    font-size: 17px;
+    color: #fff;
+    display: block;
+}
+@media screen and (min-width: 768px) {
+    .attendance-table tbody tr td {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .request-time-modal .modal-body {
+        padding: 25px 30px;
+    }
+    .requests-modal .modal-body {
+        padding: 25px 30px;
+    }
+}
+@media screen and (min-width: 550px) {
+    .request-time-modal {
+        max-width: 550px;
+    }
+    .hours-calculator-modal .modal-content {
+        max-width: 549px;
+    }
+}
+

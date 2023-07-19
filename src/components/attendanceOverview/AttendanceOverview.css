@@ -1,0 +1,51 @@
+.attendanceOverview .data-labels {
+  padding: 0 5px;
+}
+.attendanceOverview .agents-info .agents-info-row{
+  display: flex;
+}
+.attendanceOverview .agents-info .col-md-3 .agents-info-title {
+  font-size: 0.75rem;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #201D1E;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.attendanceOverview .agents-info .col-md-3 .agents-info-value {
+  font-size: 1.625rem;
+  line-height: 1.2307692308;
+}
+
+.attendanceOverview .agents-info .col-md-3 .agents-info-value .agent-value-change {
+  font-size: 0.6875rem;
+  line-height: 1.1818181818;
+  position: relative;
+  color: #03c04a;
+  font-style: normal;
+  bottom: 10px;
+  left: 4px;
+}
+
+.attendanceOverview .agents-info .col-md-3{
+  border: 1px solid #ECEEF1;
+  padding: 24px;
+}
+
+.attendanceOverview .agents-info .col-md-3 .agents-info-title svg{
+  font-size: 1.375rem;
+  color: #8E90AA;
+  vertical-align: middle;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+
+.attendanceOverview .component-footer {
+  background-color: #FAFAFC;
+  border-top: 1px solid #F0F0F0;
+  padding: 15px;
+  text-align: center;
+}

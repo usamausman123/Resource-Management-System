@@ -1,0 +1,301 @@
+[
+  {
+    "id": 1,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "25",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "agents": [
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 1,
+        "agent_name": "ayesha",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "not-Available"
+
+      },
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 2,
+        "agent_name": "fatima",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      },
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 2,
+        "agent_name": "fatima",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      },
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 2,
+        "agent_name": "fatima",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      },
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 2,
+        "agent_name": "fatima",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "agents": [
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 1,
+        "agent_name": "ayesha",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      },
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 2,
+        "agent_name": "fatima",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "40",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "agents": [
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 1,
+        "agent_name": "ayesha",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      },
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 2,
+        "agent_name": "fatima",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "75",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "agents": [
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 1,
+        "agent_name": "ayesha",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      },
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 2,
+        "agent_name": "fatima",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "agents": [
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 1,
+        "agent_name": "ayesha",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      },
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 2,
+        "agent_name": "fatima",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "agents": [
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 1,
+        "agent_name": "ayesha",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      },
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 2,
+        "agent_name": "fatima",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "agents": [
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 1,
+        "agent_name": "ayesha",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      },
+      {
+        "image": "https://robohash.org/providentametvoluptates.png?size=50x50&set=set1",
+        "id": 2,
+        "agent_name": "fatima",
+        "location":"New York",
+        "ticket_number": 77,
+        "start_date": "1/20/2022",
+        "stop_date": "2/12/2022",
+        "flex_start_date": "1/20/2022",
+        "flex_stop_date": "2/12/2022",
+        "status": "Pending",
+        "availibility": "Available"
+      }
+    ]
+  }
+]

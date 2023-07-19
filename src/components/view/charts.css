@@ -1,0 +1,27 @@
+/*filter */
+.chartFilter {
+    margin-bottom: 10px;
+}
+
+.chartFilter select {
+    background-color: transparent;
+    border: none;
+}
+
+.chartFilter select option {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.chartFilter select option:hover {
+    background-color: #46B0E6;
+}
+
+.chartFilter select option:focus {
+    background-color: #46B0E6;
+}
+
+/*Chart Heading*/
+.chartFilter span{
+    margin: auto 5px;
+}

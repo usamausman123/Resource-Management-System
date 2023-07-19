@@ -1,0 +1,10 @@
+/*bulk upload pop-up start*/
+.bulk-upload-dialog h2{font-weight: 500; font-size: 18px; line-height: 22px; color: #201D1E; font-weight: 500;}
+.bulk-upload-dialog p{font-weight: 500;    font-size: 12px;    line-height: 15px;    letter-spacing: 0.183333px;     color: #666666;}
+.file-upload{display: block;}
+.file_up { background: transparent; border: 0.5px dashed #666; padding: 29px 35px; color: #696969; width: 100%; border-radius: 4px; min-height: 135px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.file_up:hover,.file_up:active {   background: #f8f8f8;   }   
+.inputfile { width: 0.1px; height: 0.1px; opacity: 0; overflow: hidden; position: absolute; z-index: -1;   }
+.inputfile-icon{ display: flex; flex-direction: column; justify-content: center; align-content: center;   }
+.inputfile-icon p span{ color: #46B0E6; }
+/*bulk upload pop-up end*/

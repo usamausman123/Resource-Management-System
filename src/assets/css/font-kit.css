@@ -1,0 +1,203 @@
+  
+@font-face {
+  font-family: 'interregular';
+  src: url('../fonts/inter/Inter-VariableFont.woff2') format('woff2-variations');
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: oblique 0deg 20deg;
+}
+/* 
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Lt';
+  src: url('../fonts/HelveticaNeueLTStd-Lt/font.woff2') format('woff2'), url('../fonts/HelveticaNeueLTStd-Lt/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Md';
+  src: url('../fonts/HelveticaNeueLTStd-Md/font.woff2') format('woff2'), url('../fonts/HelveticaNeueLTStd-Md/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Bd';
+  src: url('../fonts/HelveticaNeueLTStd-Bd/font.woff2') format('woff2'), url('../fonts/HelveticaNeueLTStd-Bd/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Roman';
+  src: url('../fonts/HelveticaNeueLTStd-Roman/font.woff2') format('woff2'), url('../fonts/HelveticaNeueLTStd-Roman/font.woff') format('woff');
+} */
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?rwexdv');
+  src:  url('../fonts/icomoon.eot?rwexdv#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?rwexdv') format('truetype'),
+  url('../fonts/icomoon.woff?rwexdv') format('woff'),
+  url('../fonts/icomoon.svg?rwexdv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dash:before {
+  content: "\e906";
+  color: #acaec1;
+}
+.icon-close-ticket:before {
+  content: "\e91b";
+  color: #8e90aa;
+}
+.icon-csv:before {
+  content: "\e921";
+  color: #348839;
+}
+.icon-excel:before {
+  content: "\e922";
+  color: #348839;
+}
+.icon-info:before {
+  content: "\e923";
+  color: #8e90aa;
+}
+.icon-logout .path1:before {
+  content: "\e90d";
+}
+.icon-logout .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+}
+.icon-logout .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+}
+.icon-print:before {
+  content: "\e916";
+  color: #8e90aa;
+}
+.icon-filter:before {
+  content: "\e917";
+  color: #8e90aa;
+}
+.icon-open-ticket:before {
+  content: "\e91a";
+  color: #46b0e6;
+}
+.icon-all-ticket:before {
+  content: "\e918";
+  color: #ef9829;
+}
+.icon-arrow-down:before {
+  content: "\e911";
+  color: #8e90aa;
+}
+.icon-dashboard:before {
+  content: "\e90e";
+  color: #8d90ac;
+}
+.icon-camera:before {
+  content: "\e924";
+  color: #fff;
+}
+.icon-lock:before {
+  content: "\e91f";
+  color: #8e90aa;
+}
+.icon-user:before {
+  content: "\e91e";
+  color: #8e90aa;
+}
+.icon-search:before {
+  content: "\e913";
+  color: #8e90aa;
+}
+.icon-trash:before {
+  content: "\e912";
+  color: #8e90aa;
+}
+.icon-my-tickets:before {
+  content: "\e90f";
+  color: #8d90ac;
+}
+.icon-company-ticket:before {
+  content: "\e910";
+  color: #8d90ac;
+}
+.icon-left-chevron:before {
+  content: "\e91c";
+  color: #8e90aa;
+}
+.icon-right-chevron:before {
+  content: "\e91d";
+  color: #717384;
+}
+.icon-upload:before {
+  content: "\e90c";
+}
+.icon-left-long-arrow:before {
+  content: "\e920";
+  color: #8e90aa;
+}
+.icon-calender:before {
+  content: "\e919";
+  color: #8e90aa;
+}
+.icon-arrow-left:before {
+  content: "\e90a";
+  color: #aaadc2;
+}
+.icon-hamburger:before {
+  content: "\e90b";
+  color: #acaec1;
+}
+.icon-arrow-right:before {
+  content: "\e900";
+  color: #aaadc2;
+}
+.icon-cross-icon:before {
+  content: "\e901";
+  color: #ee4723;
+}
+.icon-info-new-icon .path1:before {
+  content: "\e902";
+  color: rgb(253, 253, 253);
+}
+.icon-info-new-icon .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-info-new-icon .path3:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-check-icon:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-plus:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-collapse .path1:before {
+  content: "\e908";
+  color: rgb(243, 243, 245);
+}
+.icon-collapse .path2:before {
+  content: "\e909";
+  margin-left: -2em;
+  color: rgb(198, 199, 212);
+}

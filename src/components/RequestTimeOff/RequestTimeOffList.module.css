@@ -1,0 +1,62 @@
+.tbl-container {
+  padding-top: 25px;
+  overflow-x: auto;
+}
+.tbl-container > table {
+  min-width: 1300px;
+  width: 100%;
+}
+.standard-tbl-structure,
+.standard-tbl-structure table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+.standard-tbl-structure thead tr th {
+  background-color: #fff;
+  color: #383B56;
+  font-size: 0.8571428571428571rem;
+  line-height: 1.5;
+  font-weight: 500;
+  border: 0px;
+}
+.standard-tbl-structure tbody tr td {
+  text-align: center;
+  color: #242A41;
+  font-size: 1rem;
+  line-height: 1.428571428571429;
+  font-weight: 400;
+  border-left: 0;
+  border-right: 0;
+  /* border-top: 0; */
+  height: 55px;
+}
+
+.standard-tbl-structure tbody tr .table-body-content tbody tr:first-child td,
+.standard-tbl-structure table tbody tr .table-body-content tbody tr:first-child td {
+  border-top: 0;
+}
+.standard-tbl-structure th,
+.standard-tbl-structure td {
+  padding: 9px 8px;
+  word-break: break-word;
+  border: 1px solid #EFF0F5;
+  vertical-align: middle;
+  position: relative;
+}
+
+.standard-tbl-structure thead tr th:last-child,
+.standard-tbl-structure tbody td:last-child,
+.standard-tbl-structure table thead tr th:last-child,
+.standard-tbl-structure table tbody td:last-child {
+  border-right: 0;
+}
+
+.standard-tbl-structure:not(.no-alternat) tbody tr:nth-child(odd) {
+  background-color: #FAFAFC !important;
+}
+.standard-tbl-structure:not(.no-alternat) tbody tr:nth-child(even) {
+  background-color: #fff !important;
+}

@@ -1,0 +1,17 @@
+.AddNewFlex .modal-dialog{--bs-modal-width: 606px;}
+.AddNewFlex .input::part(base){--i2c-input-border-width: 0;--i2c-focus-ring-width:0;}
+.AddNewFlex .input--standard:not(.input--line):not(.border--less){border: solid var(--i2c-input-border-width) var(--i2c-input-border-color)}
+.AddNewFlex .input{border-bottom: 1px solid #D8DDE4;}
+.AddNewFlex  .input--standard:not(.input--line):not(.border--less){box-shadow: none!important;}
+
+
+
+
+.AddNewFlex .select-emp label{margin-bottom: 10px;}
+.AddNewFlex .select-emp input{border: none; margin-bottom: 5px; width: 100%;}
+.AddNewFlex .select-emp {border-bottom: 1px solid #D8DDE4; cursor: pointer;}
+.AddNewFlex .select-emp svg{position: relative; top: -5px;}
+.AddNewFlex .select-emp input:focus-visible{border: none; outline: none;}
+
+
+.AddNewFlex  .allAgentsdropdown {    position: absolute;    right: -36px;    top: 15px;}

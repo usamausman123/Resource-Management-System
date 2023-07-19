@@ -1,0 +1,13 @@
+.HoursView .component-container{
+  padding: 16px;
+}
+.HoursView h2 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  margin: 0 0 16px;
+}
+.hour-filter{ margin: 0 0 8px; padding: 0; list-style: none; display: flex;}
+.hour-filter li { margin-right: 15px; font-size: 12px; line-height: 18px; display: flex; align-items: center;}
+.hour-filter li > div{ margin-right: 8px;}
+/* .dateranger-picker-opener::part(label){ font-size: 12px; line-height: 18px;} */

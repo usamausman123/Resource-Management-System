@@ -1,0 +1,117 @@
+.resourc-batch::part(base) {
+    background-color: #46B0E6;
+}
+.resource-dropdown-circle-btn {
+    background-color: rgba(70, 176, 230, 0.1);
+    color: #46B0E6;
+    /* width: 16px; */
+    height: 18px;
+    line-height: 0;
+    padding: 0 2px;
+    border-radius: 100%;
+}
+.resource-dropdown-circle-btn:after {
+    font-size:0.3625rem;
+    margin-left: 0;
+    color: #46B0E6;
+}
+.payroll-report-wrapper {
+    box-shadow: 0px 5px 10px rgb(141 144 172 / 10%);
+    border-radius: 5px; 
+    background: #fff;
+}
+
+/* Header Content Section Start */
+.payroll-report-wrapper .header-content .download-dropdown-button::part(base),
+.payroll-report-wrapper .header-content .download-dropdown-button::part(base):hover {
+    color: #383B56;
+    background-color: #fff;
+    border: 0;
+}
+.payroll-report-wrapper .header-content .download-dropdown::part(base) {
+    min-width: 180px;
+    top: 10px;
+    left: -55px;
+    position: absolute;
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+}
+.payroll-report-wrapper .header-content .download-dropdown .download-dropdown-item::part(base) {
+    color: #70728F;
+    font-size: 1rem;
+    line-height: 1.428571428571429;
+    margin:0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.payroll-report-wrapper .header-content .download-dropdown .download-dropdown-item:hover::part(base) {
+  background: #46B0E6;
+  color: #fff;
+}
+.download-icon > path {
+    stroke-width: 2;
+}
+.payroll-report-wrapper .header-content .download-dropdown .download-dropdown-item:hover .download-icon > path {
+  stroke: #fff;
+}
+/* Header Content Section End */
+
+/* Report Summary Section Start */
+.payroll-report-wrapper .report-summary {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #f0f0f0;
+}
+.payroll-report-wrapper .report-summary div {
+    display: inline-block;
+    font-weight: 500;
+    margin-right: 16px;
+    white-space: nowrap;
+    font-size: 0.8571428571428571rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+.payroll-report-wrapper .report-summary div span.green,  
+.payroll-report-wrapper .report-summary div span.blue {
+    margin-left: 8px;
+    font-size: 1.142857142857143rem;
+}
+.payroll-report-wrapper .report-summary div span.green {
+    color: #03C04A;
+}
+.payroll-report-wrapper .report-summary div span.blue {
+    color: #46B0E6;
+}
+/* @media screen and (min-width: 768px) {
+    .payroll-report-wrapper .report-summary div {
+        font-size: 0.75rem;
+        line-height: 1.25;
+        margin-right: 30px;
+        color: #201D1E;
+    }
+} */
+/* Report Summary Section End */
+
+.payroll-report-wrapper .total-hours {
+    box-shadow: -5px 0px 20px rgb(141 144 172 / 40%);
+    border-top: 1px solid #ECEEF1;
+    font-size: 0.875rem;
+    line-height: 1.2857142857;
+}
+.payroll-report-wrapper .total-hours > div {
+    background: #FAFAFC;
+    font-weight: 500;
+}
+.payroll-report-wrapper .total-hours > div:first-child {
+    border-bottom: 1px dashed #ECEEF1;
+}
+.payroll-report-wrapper .total-hours > div .text-orange {
+    color: #EF9829;
+}
+.payroll-report-wrapper .total-hours > div .total-hours-slot span:first-child {
+    margin-right: 55px;
+}
+.payroll-report-wrapper .total-hours > div .total-hours-slot span:last-child {
+    color: #03C04A;
+    font-weight: 700;
+}

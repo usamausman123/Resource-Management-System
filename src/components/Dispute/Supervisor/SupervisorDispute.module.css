@@ -1,0 +1,24 @@
+.supervisor-disputes-wrapper .disputes-dropdown::part(menu) {
+    min-width: 180px;
+}
+.agents-filter-opener::part(base),
+.agents-filter-opener::part(base):hover {
+    background: #fff;
+    border:0;
+    color: #383B56;
+    font-size: 0.8571428571428571rem;
+    font-weight: 500;
+}
+
+.supervisor-dispute-table > tbody > tr:nth-child(4n+1), 
+.supervisor-dispute-table > tbody > tr:nth-child(4n+2)  {
+    background: #FAFAFC;
+}
+.supervisor-dispute-table > tbody > tr:nth-child(4n-1), 
+.supervisor-dispute-table > tbody > tr:nth-child(4n)  {
+    background: #FFFFFF;
+}
+.dispute-avatar::part(base) {
+    width: 40px;
+    height: 40px;
+}

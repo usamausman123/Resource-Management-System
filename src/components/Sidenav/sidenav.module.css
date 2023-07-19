@@ -1,0 +1,114 @@
+.sidebar { 
+    width: 60px;
+	transition: all 0.2s;
+	padding: 10px;
+	box-shadow: 10px 10px 20px rgba(141, 144, 172, 0.1);
+	background: #ffffff;
+	overflow-y: auto;
+	position: fixed;
+	top: 65px;
+	left: 0;
+	bottom: 0;
+	z-index: 8;
+}
+.sidebar:hover {
+    width: 220px;
+}
+.sidebar:hover ul li a span {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.sidebar ul li {
+    display: block;
+    margin: 0 0 8px;
+}
+.sidebar ul li:last-child {
+    margin-bottom: 0;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    color: #201D1E;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li a:hover, 
+.sidebar ul li a:active, 
+.sidebar ul li a.active {
+    color: #fff;
+    background: #46b0e6;
+}
+.sidebar ul li a span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: all 0.2s;
+    opacity: 0;
+    visibility: hidden;
+    padding-top: 4px;
+}
+.sidebar ul li a .menu-icon {
+    width: 16px;
+    margin: 0 8px 0 0;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .sidebar { 
+        width: 70px;
+        padding: 10px;
+        top: 67px; 
+    }
+    .sidebar:hover {
+        width: 264px;
+    }
+    .sidebar ul li a {
+        padding: 14px;
+        font-size: 14px;
+        line-height: 17px;
+        border-radius: 10px;
+    }
+    .sidebar ul li a .menu-icon {
+        width: 20px;
+        margin: 0 12px 0 0;
+    }
+}
+/* i {
+    @include size(16px);
+    @include font-size(16);
+    margin: 0 8px 0 0;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+        @include size(20px);
+        @include font-size(20);
+        margin: 0 15px 0 0;
+    }
+    &.icon-dashboard {
+        @include font-size(14);
+        
+        @media (min-width: 768px) {
+            @include font-size(18);
+        }
+    }
+    &.icon-dispute {
+        @include font-size(18);
+        
+        @media (min-width: 768px) {
+            @include font-size(23);
+        }
+    }
+} */

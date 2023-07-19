@@ -1,0 +1,21 @@
+.AgentRequestDisputeDialog .tokenInput::part(base){--i2c-input-border-width: 0; --i2c-focus-ring-width:0;}
+.AgentRequestDisputeDialog .noteInput::part(base){--i2c-input-border-width: 0; --i2c-focus-ring-width:0;}
+.AgentRequestDisputeDialog .input--standard:not(.input--line):not(.border--less){border: solid var(--i2c-input-border-width) var(--i2c-input-border-color)}
+.AgentRequestDisputeDialog .tokenInput{border-bottom: 1px solid #D8DDE4;}
+.AgentRequestDisputeDialog .noteInput{border-bottom: 1px solid #D8DDE4;}
+.AgentRequestDisputeDialog .tokenInput:focus,
+.AgentRequestDisputeDialog .noteInput:focus{    border-bottom: 1px solid #46B0E6}
+.AgentRequestDisputeDialog h3{font-weight: 500;    font-size: 16px;    line-height: 18px; margin-bottom: 30px;}
+.AgentRequestDisputeDialog  .shift{position: relative; width: 40px; height: 40px;}
+.AgentRequestDisputeDialog .shift input[type=checkbox]{        position: absolute;width: 100%;left: 0;top: 0;opacity: 0;height: 100%;    cursor: pointer; z-index: 1;}
+.AgentRequestDisputeDialog .shift-content{width:100%;  border: 1px solid #E8E8EE; box-shadow: 0px 2px 4px rgba(70, 176, 230, 0.1);    border-radius: 5px; color: #201D1E;    position: relative; width: 40px;    height: 40px;}
+.AgentRequestDisputeDialog .shift input[type=checkbox]:checked ~ div {    border: 1px solid #46B0E6;    color: #46B0E6;  }
+.AgentRequestDisputeDialog .calculateTime{font-style: normal;    font-weight: 400;    font-size: 13px;   line-height: 18px;    letter-spacing: -0.3px;    color: #666666;    }
+
+.AgentRequestDisputeDialog .ticket{position: relative;}
+
+.AgentRequestDisputeDialog .ticket .ticket-tooltip{position: absolute;   top: 0;    left: 110px;}
+.AgentRequestDisputeDialog .ticket-tooltiptext {    visibility: hidden;    width: 247px;    background-color: black;    color: #fff;    font-style: normal;    font-weight: 500;    font-size: 10px;    line-height: 12px;        border-radius: 6px;    padding: 8px 10px;    position: absolute;    z-index: 1;    top: -5px;    left: 143%;  }
+.AgentRequestDisputeDialog .ticket-tooltiptext::after {    content: "";    position: absolute;    top: 40%;    right: 100%;    margin-top: -5px;    border-width: 5px;    border-style: solid;    border-color: transparent black transparent transparent;  }
+.AgentRequestDisputeDialog .ticket-tooltip:hover .ticket-tooltiptext {    visibility: visible;  }
+.modelForm{padding: 30px 30px 40px;}

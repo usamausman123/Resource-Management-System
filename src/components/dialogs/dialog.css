@@ -1,0 +1,202 @@
+/* Request Time Off Dialog
+.timeoff-dialog form,
+.dispute-dialog form {
+    padding: 30px 30px 40px;
+}
+.timeoff-dialog .timeoff-dialog-heading,
+.dispute-dialog .timeoff-dialog-heading {
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: 30px 30px 16px 30px;
+}
+.timeoff-dialog .timeoff-dialog-subheading,
+.dispute-dialog .timeoff-dialog-subheading {
+    padding: 0px 30px;   
+}
+.text-area::part(base) {
+    border: var(--i2c-form-textarea-noborder);
+}
+
+.text-area::part(textarea) {
+    height: var(--i2c-form-textarea-small);
+    border-bottom: var(--i2c-form-textarea-border);
+    padding: var(--i2c-form-textarea-nopadding);
+}
+
+.text-area::part(form-control-label) {
+    color: var(--i2c-text-color);
+    font-size: var(--i2c-text-size);
+}
+
+.timeoff-dialog form select,
+.dispute-dialog form select {
+    background-color: #ffffff;
+    box-shadow: none;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #D8DDE4;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.background {
+    background-color: rgba(232, 232, 238, 0.15);
+}
+
+.badge-strip {
+    background-color: #E8E8EE;
+    padding: 16px 30px;
+}
+
+.primary-badge {
+    background: #F1FAFF;
+    border: 1px solid rgba(70, 176, 230, 0.28);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 16px;
+    margin: 10px 0 35px;
+}
+
+.timeoff-dialog .footer,
+.dispute-dialog .footer {
+    padding: 20px;
+    background-color: rgba(232, 232, 238, 0.15);
+    border-top: 1px solid rgba(232, 232, 238, 0.75);
+}
+
+.timeoff-dialog .footer .col-50,
+.dispute-dialog .footer .col-50 {
+    padding: 0 10px;
+}
+
+.timeoff-dialog::part(header),
+.dispute-dialog::part(header) {
+    padding: var(--i2c-header-no-padding);
+}
+
+.timeoff-dialog::part(body),
+.dispute-dialog::part(body) {
+    padding: var(--i2c-body-no-padding);
+}
+
+.timeoff-dialog::part(panel),
+.dispute-dialog::part(panel) {
+    padding: var(--i2c-body-no-padding);
+    box-shadow: var(--i2c-box-shadow);
+    border-radius: var(--i2c-form-box-shadow);
+    max-width: 550px;
+    width: 100%;
+}
+
+.timeoff-dialog form .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root,
+.dispute-dialog form .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.timeoff-dialog form .css-1d3z3hw-MuiOutlinedInput-notchedOutline,
+.dispute-dialog form .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border: none;
+    border-bottom: 1px solid #D8DDE4;
+    border-radius: 0;
+}
+
+.timeoff-dialog form .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input,
+.dispute-dialog form .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    border: none;
+    padding: 10px 0px;
+}
+
+.timeoff-dialog form .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+.dispute-dialog form .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #666666;
+    transform: translate(0px, -5px) scale(0.75);
+}
+
+.timeoff-dialog form .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root,
+.dispute-dialog form .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+    transform: translate(0px, -9px) scale(0.75);
+}
+.timeoff-dialog form .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+.dispute-dialog form .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    transform: translate(0px, 16px) scale(1);
+}
+*/
+.dispute-dialog .dispute-modal-text-field::part(base) {
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    margin-top: -5px;
+}
+.dispute-dialog .dispute-modal-text-field::part(input) {
+    padding-left: 0px;
+} 
+
+/* Hour Calculator Dialog
+.dialog::part(panel) {
+    background-color: var(--i2c-bg-color);
+    border-radius: var(--i2c-border-radius);
+    box-shadow: var(--i2c-box-shadow);
+    max-width: 550px;
+    width: 100%;
+}
+
+.dialog::part(body) {
+    text-align: var(--i2c-text-center);
+}
+
+.dialog::part(footer) {
+    text-align: var(--i2c-text-center);
+    background-color: var(--i2c-bg-color);
+    border-top: var(--i2c-border-top);
+} */
+
+/*btn*/
+.button-default::part(base) {
+    background-color: var(--i2c-button-bg-color);
+    border-radius: var(--i2c-button-radius);
+    border: var(--i2c-button-border);
+}
+
+.button-default::part(base):hover {
+    background-color: var(--i2c-button-bg-color-hover);
+    border: var(--i2c-button-border-hover);
+    color: var(--i2c-button-color-hover);
+}
+
+/* Flex Dialog
+.flex-dialog::part(panel) {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    max-width: 550px;
+    width: 100%;
+}
+
+.flex-dialog::part(footer) {
+    text-align: var(--i2c-text-center);
+    background-color: var(--i2c-bg-color);
+    border-top: var(--i2c-border-top);
+}
+
+.flex-detail {
+    background: #FFFFFF;
+    border: 1px solid #E8E8EE;
+    border-radius: 2px;
+    padding: 15px;
+} */
+
+/*Request List*/
+.requestList-dialog::part(panel) {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    max-width: 550px;
+    width: 100%;
+}
+
+.requestList-dialog::part(footer) {
+    text-align: var(--i2c-text-center);
+    background-color: var(--i2c-bg-color);
+    border-top: var(--i2c-border-top);
+}

@@ -1,0 +1,67 @@
+.shiftHoursDef{box-shadow:0 5px 10px rgb(141 144 172 / 10%);border-radius:5px;background:#fff;padding:0}
+.main{border-top:1px solid #eceef1;}
+.tabs{border-right: 1px solid #eceef1; padding: 16px 37px 16px 16px; color: #242A41; height: 100%;}
+.tabs ul li{font-weight:400;font-size:13px;line-height:17px;cursor:pointer;padding: 7px 13px;border:1px solid transparent;}
+.tabs ul li span{margin-left:16px}
+.content{padding:24px 14px;color: #000; min-height: 83vh;}
+.content h3 {font-size: 16px; line-height: 20px; font-weight: 700;}
+.tabHeader{margin-bottom:30px}
+.tabs .activeLi{color: #46b0e6; background: #ecf8fe; border-radius: 6px;}
+
+.date{margin-bottom: 40px; display: flex;}
+.date .start-date label{position: relative; top: 0;   }
+.date .start-date div:first-child{padding: 0;}
+.switches {margin-bottom:40px;display: flex; align-items: center; padding-top:20px;}
+.switches .same{display: flex; align-items: center; margin-right: 30px;}
+.switches .custom{display: flex; align-items: center;}
+
+.switches .switchText {margin-left:10px;font-size: 12px;    line-height: 14px;    color: #666666;}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{ border: none; border-bottom: 1px solid #D8DDE4; border-radius: 0;      }
+.css-i4bv87-MuiSvgIcon-root{position: relative;    bottom: 5px;    font-size: 0.75em;}
+
+
+.times {display: flex;}
+
+
+.start-date {width: 280px; margin-right: 45px;}
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{width:100%}
+
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{transform: none !important; color: #666666;}
+.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.Mui-focused.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{transform:none !important; color: #666666;}
+
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root{display: flex; align-items: center;}
+
+
+.start-date .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root { top:-11px}
+
+
+.start-date .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.Mui-focused.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{transform: none !important; top: 0;}
+
+
+.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.MuiFormLabel-filled.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{left:0; transform: none;}
+
+
+
+/*Toggle CSS*/
+.switch {    position: relative;    display: inline-block;    width: 25px;    height: 14px;      }
+.switch input {     opacity: 0;    width: 0;    height: 0;  }
+.slider {    position: absolute;    cursor: pointer;    top: 0;    left: 0;    right: 0;    bottom: 0;    background-color: #ccc;    -webkit-transition: .4s;    transition: .4s;  }
+.slider:before {    position: absolute;    content: "";    height: 14px;    width: 14px;    left: 0;    bottom: 0px;    background-color: #666666;    -webkit-transition: .4s;    transition: .4s;  }
+.shiftHoursDef input:checked+.slider:before {    background-color: #03C04A;      }
+.shiftHoursDef input:checked + .slider {    background-color: rgba(3, 192, 74, 0.3);  }  
+.shiftHoursDef input:focus + .slider {    box-shadow: 0 0 1px #03C04A;  }  
+.shiftHoursDef input:checked + .slider:before {    -webkit-transform: translateX(11px);    -ms-transform: translateX(11px);    transform: translateX(11px);  }  
+.slider.round {    border-radius: 34px;  }  
+.slider.round:before {    border-radius: 50%;  }
+
+
+
+
+@media only screen and (max-width: 1200px) {
+        .tabs {width: 100%}
+        .tabs ul{display:flex}
+        .tabs ul li span{margin-left:8px}
+
+
+    }

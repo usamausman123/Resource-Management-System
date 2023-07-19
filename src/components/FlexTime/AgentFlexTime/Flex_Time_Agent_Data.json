@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "50",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "status": "optin"
+  },
+  {
+    "id": 2,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "20",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "status": "Reject"
+  },
+  {
+    "id": 3,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "30",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "status": "Approved"
+  },
+  {
+    "id": 4,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "status": "optin"
+  },
+  {
+    "id": 5,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "status": "Reject"
+  },
+  {
+    "id": 6,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "status": "Approved"
+  },
+  {
+    "id": 7,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "status": "Reject"
+  },
+  {
+    "id": 8,
+    "start_date": "12/29/2021",
+    "stop_date": "2/20/2022",
+    "criteria": "Sed sagittis. Nam congue, risus semper porta volutpat, ",
+    "factor": "2.0",
+    "Amount": "",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat",
+    "status": "Approved"
+  }
+]

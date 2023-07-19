@@ -1,0 +1,116 @@
+/* .supervisorFlexTime::part(base) {
+  --i2c-button-default:transparent;
+  --i2c-color-neutral-300:transparent;
+}
+
+.request-table .parent-row:nth-child(4n+1) {
+  background: #FAFAFC;
+}
+
+.requestAgent {
+  display: flex;
+  align-items: center;
+}
+
+.requestAgent li {
+  margin-left: -20px;
+}
+
+.list-style li:nth-child(n+4) {
+  display: none;
+}
+
+.list-style li:last-child {
+  display: block;
+  margin-left: 5px;
+  color: #999999;
+}
+
+.request-table .tooltip {
+  position: relative;
+  display: inline-block;
+  opacity: inherit;
+  z-index: inherit;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.RequestTable .first-header-group th {
+  background: #EFF0F5;
+  border: 1px solid #DDDDDD;
+  padding: 8px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #201D1E;
+}
+
+.RequestTable td {
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #201D1E;
+}
+
+.RequestTable .second-header-group td {
+  background: #FAFAFC;
+  border: 1px solid #eeeeee;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #201D1E;
+}
+
+.RequestTable .button--standard.button--default {
+  background-color: var(--i2c-button-default);
+  border-color: var(--i2c-color-neutral-300);
+  color: var(--i2c-color-default-text);
+} 
+
+.RequestTable i2c-button::part(base){
+  --i2c-button-default-hover:transparent;
+  --i2c-button-default:transparent;
+}
+.RequestTable  i2c-dropdown::part(base){
+  --i2c-color-neutral-300: transparent;;
+}
+.RequestTable i2c-dropdown i2c-menu-item {
+  background-color: #fff;
+} */

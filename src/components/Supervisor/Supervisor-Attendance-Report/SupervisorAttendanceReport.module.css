@@ -1,0 +1,160 @@
+
+/****************************************************/
+.resource-dropdown-circle-btn {
+  background-color: rgba(70, 176, 230, 0.1);
+  color: #46B0E6;
+  /* width: 16px; */
+  height: 18px;
+  line-height: 0;
+  padding: 0 2px;
+  border-radius: 100%;
+}
+
+.download-dropdown-button::part(base),
+.download-dropdown-button::part(base):hover {
+  background-color: #fff;
+  border: 0;
+}
+.download-dropdown::part(base) {
+  min-width: 150px;
+  left: -55px;
+  position: absolute;
+}
+.download-dropdown .download-dropdown-item::part(base):hover {
+  background: #46B0E6;
+}
+.resource-dropdown-circle-btn:after {
+  font-size:0.3625rem;
+  margin-left: 0;
+  color: #46B0E6;
+}
+.leave-table tbody tr td {
+    border-style: solid !important;
+}
+.leave-table tbody tr td.bg-green {
+    background: rgba(147, 240, 182, 0.2);
+}
+.leave-table tbody tr td.bg-blue {
+    background-color: #E9F7FF;
+}
+.leave-table tbody tr td.bg-gray {
+    background: #F4F4F7;
+}
+.leave-table tbody tr td.bg-red {
+    background-color: #FFEEEA;
+}
+.leave-table tbody tr td.bg-yellow {
+    background: #FDF5EA;
+}
+
+.leave-table th.status-dropdown,
+.leave-table td.status-dropdown {
+    width: 54px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.leave-table th.status-dropdown .dropdown .dropdown-toggle:after,
+.leave-table td.status-dropdown .dropdown .dropdown-toggle:after {
+    display: none;
+}
+.leave-table th.status-dropdown .dropdown .dropdown-menu .dropdown-item,
+.leave-table td.status-dropdown .dropdown .dropdown-menu .dropdown-item {
+    text-transform: capitalize;
+}
+
+.leave-table tbody td {
+    border-left: 0;
+    height: 55px !important;
+    border-right: 0;
+}
+.resource-dropdown {
+    max-width: 350px;
+}
+
+.leave-table .action-icon {
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-block;
+    margin: 0 5px;
+}
+.leave-table .action-icon:not(.disabled):hover .approve-icon > path {
+    stroke: #1dc756;
+}
+.leave-table .action-icon:not(.disabled):hover .reject-icon > path {
+    stroke: #d61f1f;
+}
+
+.leave-table .action-icon.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.status-badge {
+  position: relative;
+  padding: 6px 8px 6px 24px;
+  border-radius: 30px;
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0.6875rem;
+  line-height: 1.0833333333;
+}
+.status-badge.dotless {
+  padding: 4px 15px 4px 15px;
+}
+.status-badge:not(.dotless):before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 8px;
+}
+.status-badge.success,
+.status-badge.green {
+  background: rgba(3, 192, 74, 0.1);
+  color: #03C04A;
+}
+.status-badge.success:before,
+.status-badge.green:before {
+  background: #03C04A;
+}
+.status-badge.warning,
+.status-badge.yellow {
+  background: rgba(239, 152, 41, 0.1);
+  color: #ef9829;
+}
+.status-badge.warning:before,
+.status-badge.yellow:before {
+  background: #ef9829;
+}
+.status-badge.danger,
+.status-badge.red {
+  background: rgba(238, 71, 35, 0.1);
+  color: #EE4723;
+}
+.status-badge.danger:before,
+.status-badge.red:before {
+  background: #EE4723;
+}
+.status-badge.info,
+.status-badge.blue {
+  background: rgba(70, 177, 230, 0.1);
+  color: #46b0e6;
+}
+.status-badge.info:before,
+.status-badge.blue:before {
+  background: #46b0e6;
+}
+.status-badge.purple {
+  background: rgba(123, 144, 254, 0.1);
+  color: #7B90FE;
+}
+.status-badge.purple:before {
+  background: #7B90FE;
+}

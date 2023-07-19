@@ -1,0 +1,49 @@
+::part(control){
+    --i2c-focus-ring-width:0;
+    --i2c-input-focus-ring-color:transparent;
+}
+
+
+.selectFilter {
+    background-color: #fff;
+    border: none;
+    margin: 0 20px;
+    display: inline-block;
+    text-align: left;
+    min-width: 150px;
+}
+
+.selectFilter option{
+    background: #FFFFFF;
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.217476);
+    border-radius: 5px;
+}
+
+.selectFilter option:hover{
+    background: #46B0E6;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.select--standard .select__control{
+    box-shadow: solid var(--i2c-input-border-width) var(--i2c-input-border-color);
+}
+
+/*Record Filter*/
+ .filterRecord {
+    padding: 9px 20px 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #E8E8EE;
+    color: #8E90AA;
+}
+
+.filterRecord option {
+    color: #666;
+}
+
+.filterRecord option span {
+    color: #666666;
+}
+
+/**/

@@ -1,0 +1,64 @@
+.agentList-header {
+  padding: 0 25px;
+}
+
+.agentList table tbody .table-tr:nth-child(2n+2) {
+  background: #FAFAFC;
+}
+
+.avatar {
+  padding-right: 10px;
+}
+
+.status {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  border-radius: 50px;
+  left: 30px;
+  top: 30px;
+  border: 2px solid #FFFFFF;
+}
+
+.tooltiptext .status {
+  left: 20px;
+  top: 20px;
+}
+
+.agentList .available-status {
+  left: 55%;
+  top: 60%;
+}
+
+/*Search Style*/
+.search {
+  text-align: right;
+}
+
+.btn-search {
+  background: #FFFFFF;
+  border: 1px solid rgba(142, 144, 170, 0.45);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.list-menu{  display: flex;  justify-content: flex-end; align-items: center; min-height: 38.5px;}
+.list-menu i2c-select{  width: 133px;}
+.list-menu .select::part(base){  --i2c-input-border-width:0;}
+
+
+.list-menu .input{
+  position: relative;
+}
+
+.list-menu .close-btn{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,11 @@
+
+.sameDay{margin-bottom: 60px;}
+.sameDay ul {display:flex; margin-bottom: 50px;}
+.sameDay ul li{font-size: 13px; line-height: 16px; color: #201D1E;  margin-right: 16px;border: 1px solid #E8E8EE; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.03);border-radius: 5px; cursor: pointer;width: 40px; height: 40px;    display: flex;    justify-content: center;    align-items: center;}
+.sameDay ul li.activeLi{color: #46B0E6; border:1px solid #46B0E6;}
+.sameDay ul li.inactiveLi{font-size: 13px;    line-height: 16px;             color: #201D1E;        opacity: 0.5;    border: 1px solid #E8E8EE; pointer-events: none;}
+.sameDay .startTime,
+.sameDay .endTime{width: 15.5%; margin-right: 20px;}
+.sameDay .calculatedTime{display: flex; align-items: flex-end;}
+/* .sameDaybuttons i2c-button {    margin-right: 18px;  } */
+

@@ -1,0 +1,54 @@
+.main-search-wrapper {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.01);
+    border-radius: 5px;
+    /* margin: 15px auto 0; */
+}
+
+
+.main-search-wrapper .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    padding: 0;
+    margin-bottom: 20px;
+}
+.main-search-wrapper .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root .MuiInputLabel-formControl {
+    color: #666;
+}
+.main-search-wrapper .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border: none;
+    border-bottom: 1px solid #D8DDE4;
+    border-radius: 0;
+}
+.main-search-wrapper .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    border: none;
+    padding: 10px 0px;
+}
+.main-search-wrapper .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #666666;
+    transform: translate(0px, -5px) scale(0.75);
+}
+.main-search-wrapper .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+    transform: translate(0px, -9px) scale(0.75);
+}
+.main-search-wrapper .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    transform: translate(0px, 16px) scale(1);
+}
+.main-search-wrapper .locations-dropdown::part(control) {
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+.main-search-wrapper  .locations-dropdown::part(form-control-label) {
+    color: #666;
+}
+.main-search-wrapper .locations-dropdown .locations-dropdown-item::part(base):hover {
+    background: #46B0E6;
+}
+.search-footer {
+    border-top: 1px solid rgba(232, 232, 238, 0.75);
+    background: rgba(232, 232, 238, 0.15);
+}
+
+@media screen and (min-width: 885px) {
+    .main-search-wrapper {
+        width: 760px;
+        margin: 136px auto 0;
+    }
+}

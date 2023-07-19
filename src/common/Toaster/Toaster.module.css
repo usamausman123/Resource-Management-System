@@ -1,0 +1,68 @@
+/* Toaster styles start */
+:global .Toastify__toast-container {
+    min-width: 475px;
+}
+
+.toasterContainer > div {
+    padding: 0;
+}
+
+.toasterContainer > div > div {
+  padding: 0;
+	margin: 0;
+}
+
+.toastInner {
+	padding-left: 15px;
+}
+
+.toastMain {
+	display: flex;
+	align-items: center;
+	padding: 15px 15px 15px 30px;
+	position: relative;
+	min-height: 96px;
+	width: 100%;
+}
+
+.toastMain:before {
+	position: absolute;
+	content: "";
+	left: 15px;
+	width: 3px;
+	bottom: 15px;
+	top: 15px;
+	border-radius: 3px;
+}
+
+.toastMain.success:before {
+	background-color: #03c04a;
+}
+
+.toastMain.error:before {
+	background-color: #ee4723;
+}
+
+.toastBoldText {
+	font-weight: 700;
+	color: #201d1e;
+	margin-bottom: 5px;
+}
+
+.toastLightText {
+	font-size: 14px;
+	color: #666;
+}
+
+:global .Toastify__close-button {
+	margin: 15px 15px 0 0;
+}
+
+.progressBarSuccess{
+	background: #03C04A;
+}
+
+.progressBarError{
+	background: #EE4723;
+}
+/* Toaster styles end */

@@ -1,0 +1,15 @@
+.graph-bullet {
+    display: flex;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    width: 93%;
+}
+
+.graph-bullet li {
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.PayrollReport-graph{
+    display: flex;
+}

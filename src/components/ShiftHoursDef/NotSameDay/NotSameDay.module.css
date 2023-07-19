@@ -1,0 +1,9 @@
+.notSameDay {margin-bottom: 47px;}
+.notSameDay li .times{display: flex; align-items: end;margin-bottom: 24px;}
+.notSameDay li .days{width: auto;}
+.notSameDay li .days div{width: 44px;    height: 48px;    display: flex;    flex-direction: column;    align-items: center; justify-content: center; font-size: 13px; line-height: 16px; text-align: center; color: #46B0E6; margin-right: 32px;border:1px solid #46B0E6;border-radius: 5px; cursor: pointer;}
+.notSameDay li.inactive .days div{display: block;width: 44px;    height: 48px;    display: flex;    flex-direction: column;    align-items: center; justify-content: center; font-size: 13px; line-height: 16px; text-align: center; color: #201D1E; padding: 0 10px;border:1px solid #E8E8EE;border-radius: 5px; cursor: auto; opacity: 0.5;}
+.notSameDay li .calculatedTime {font-weight: 400;font-size: 13px;line-height: 18px;color: #666666; pointer-events: none; white-space: nowrap; }
+.notSameDay .updatedFontSize{ font-size: 10px;    line-height: 12px;}
+.notSameDay .startTime,
+.notSameDay .endTime  {    width: 225px;    margin-right: 32px;  }

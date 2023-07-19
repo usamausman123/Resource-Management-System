@@ -1,0 +1,18 @@
+.grid-container tbody tr:nth-child(2n+2) {
+    background: #FFFFFF;
+}
+.agent-disputes-wrapper .disputes-dropdown::part(menu) {
+    min-width: 180px;
+}
+.agent-dispute-table {
+    min-width: 1000px;
+    width: 100%;
+}
+.agent-dispute-table > tbody > tr:nth-child(4n+1), 
+.agent-dispute-table > tbody > tr:nth-child(4n+2)  {
+    background: #FAFAFC;
+}
+.agent-dispute-table > tbody > tr:nth-child(4n-1), 
+.agent-dispute-table > tbody > tr:nth-child(4n)  {
+    background: #FFFFFF;
+}
